@@ -1,0 +1,151 @@
+{
+    "timestamp": "2025-02-02T01:38:16.677464",
+    "target": "https://planspiegel.com/",
+    "results": [
+        {
+            "CheckName": "blacklist",
+            "Status": "success",
+            "Passed": [
+                "ivmURI",
+                "Nordspam DBL",
+                "SEM FRESH",
+                "SEM URI",
+                "SEM URIRED",
+                "SORBS RHSBL BADCONF",
+                "SORBS RHSBL NOMAIL",
+                "Spamhaus DBL",
+                "SURBL multi"
+            ]
+        },
+        {
+            "CheckName": "smtp",
+            "Status": "success",
+            "Failed": {
+                "SMTP Connect": "Failed To Connect"
+            },
+            "Timeouts": [
+                "SMTP Reverse DNS Resolution",
+                "SMTP Server Disconnected",
+                "SMTP Open Relay",
+                "SMTP Banner Check",
+                "SMTP TLS",
+                "SMTP Connection Time",
+                "SMTP Transaction Time",
+                "SMTP Reverse DNS Mismatch",
+                "SMTP Valid Hostname",
+                "DMARC Record Published"
+            ]
+        },
+        {
+            "CheckName": "mx",
+            "Status": "success",
+            "Failed": {
+                "DMARC Record Published": "No DMARC Record found"
+            },
+            "Warnings": {
+                "DMARC Policy Not Enabled": "DMARC Quarantine/Reject policy not enabled"
+            },
+            "Passed": [
+                "DNS Record Published"
+            ]
+        },
+        {
+            "CheckName": "a",
+            "Status": "success",
+            "Passed": [
+                "DNS Record Published"
+            ]
+        },
+        {
+            "CheckName": "spf",
+            "Status": "success",
+            "Failed": {
+                "SPF Record Published": "No SPF Record found"
+            }
+        },
+        {
+            "CheckName": "txt",
+            "Status": "success",
+            "Failed": {
+                "DNS Record Published": "DNS Record not found"
+            }
+        },
+        {
+            "CheckName": "ptr",
+            "Status": "error",
+            "Error": "Client error '400 Bad Request' for url 'https://api.mxtoolbox.com/api/v1/lookup/ptr/?argument=planspiegel.com'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400"
+        },
+        {
+            "CheckName": "cname",
+            "Status": "success",
+            "Failed": {
+                "DNS Record Published": "DNS Record not found"
+            }
+        },
+        {
+            "CheckName": "whois",
+            "Status": "error",
+            "Error": "Client error '400 Bad Request' for url 'https://api.mxtoolbox.com/api/v1/lookup/whois/?argument=planspiegel.com'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400"
+        },
+        {
+            "CheckName": "arin",
+            "Status": "error",
+            "Error": "Client error '400 Bad Request' for url 'https://api.mxtoolbox.com/api/v1/lookup/arin/?argument=planspiegel.com'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400"
+        },
+        {
+            "CheckName": "soa",
+            "Status": "success",
+            "Passed": [
+                "DNS Record Published"
+            ]
+        },
+        {
+            "CheckName": "tcp",
+            "Status": "error",
+            "Error": "Client error '400 Bad Request' for url 'https://api.mxtoolbox.com/api/v1/lookup/tcp/?argument=planspiegel.com'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400"
+        },
+        {
+            "CheckName": "https",
+            "Status": "success",
+            "Passed": [
+                "HTTP Connect",
+                "HTTP Filter",
+                "HTTP Delay Check",
+                "HTTPS Certificate Check",
+                "HTTPS Certificate Expiration"
+            ]
+        },
+        {
+            "CheckName": "ping",
+            "Status": "success"
+        },
+        {
+            "CheckName": "trace",
+            "Status": "success"
+        },
+        {
+            "CheckName": "dns",
+            "Status": "success",
+            "Warnings": {
+                "DNS SOA Serial Number Format": "SOA Serial Number Format is Invalid",
+                "DNS SOA Expire Value": "SOA Expire Value out of recommended range"
+            },
+            "Passed": [
+                "DNS Record Published",
+                "DNS Bad Glue Detected",
+                "DNS At Least Two Servers",
+                "DNS All Servers Responding",
+                "DNS All Servers Authoritative",
+                "DNS Local Parent Mismatch",
+                "DNS Servers are on Different Subnets",
+                "DNS Servers Have Public IP Addresses",
+                "DNS SOA Serial Numbers Match",
+                "DNS Primary Server Listed At Parent",
+                "DNS SOA Refresh Value",
+                "DNS SOA Retry Value",
+                "DNS SOA NXDOMAIN Value",
+                "DNS Open Recursive Name Server"
+            ]
+        }
+    ]
+}

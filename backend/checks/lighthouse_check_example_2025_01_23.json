@@ -1,0 +1,222 @@
+{
+  "audits": {
+    "is-on-https": {
+      "id": "is-on-https",
+      "title": "Uses HTTPS",
+      "description": "All sites should be protected with HTTPS, even ones that don't handle sensitive data. This includes avoiding [mixed content](https://developers.google.com/web/fundamentals/security/prevent-mixed-content/what-is-mixed-content), where some resources are loaded over HTTP despite the initial request being served over HTTPS. HTTPS prevents intruders from tampering with or passively listening in on the communications between your app and your users, and is a prerequisite for HTTP/2 and many new web platform APIs. [Learn more about HTTPS](https://developer.chrome.com/docs/lighthouse/pwa/is-on-https/).",
+      "score": 1,
+      "scoreDisplayMode": "binary",
+      "details": {
+        "type": "table",
+        "headings": [],
+        "items": []
+      }
+    },
+    "redirects-http": {
+      "id": "redirects-http",
+      "title": "Redirects HTTP traffic to HTTPS",
+      "description": "Make sure that you redirect all HTTP traffic to HTTPS in order to enable secure web features for all your users. [Learn more](https://developer.chrome.com/docs/lighthouse/pwa/redirects-http/).",
+      "score": null,
+      "scoreDisplayMode": "notApplicable"
+    },
+    "third-party-cookies": {
+      "id": "third-party-cookies",
+      "title": "Avoids third-party cookies",
+      "description": "Chrome is moving towards a new experience that allows users to choose to browse without third-party cookies. [Learn more about third-party cookies](https://developers.google.com/privacy-sandbox/cookies).",
+      "score": 1,
+      "scoreDisplayMode": "binary",
+      "details": {
+        "type": "table",
+        "headings": [],
+        "items": []
+      }
+    },
+    "errors-in-console": {
+      "id": "errors-in-console",
+      "title": "Browser errors were logged to the console",
+      "description": "Errors logged to the console indicate unresolved problems. They can come from network request failures and other browser concerns. [Learn more about this errors in console diagnostic audit](https://developer.chrome.com/docs/lighthouse/best-practices/errors-in-console/)",
+      "score": 0,
+      "scoreDisplayMode": "binary",
+      "details": {
+        "type": "table",
+        "headings": [
+          {
+            "key": "sourceLocation",
+            "valueType": "source-location",
+            "label": "Source"
+          },
+          {
+            "key": "description",
+            "valueType": "code",
+            "label": "Description"
+          }
+        ],
+        "items": [
+          {
+            "source": "exception",
+            "description": "Error: Minified React error #418; visit https://react.dev/errors/418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.\n    at t5 (https://planspiegel-landing.vercel.app/_next/static/chunks/fd9d1056-5798c5bc23aff152.js:1:24670)\n    at iZ (https://planspiegel-landing.vercel.app/_next/static/chunks/fd9d1056-5798c5bc23aff152.js:1:120535)\n    at ia (https://planspiegel-landing.vercel.app/_next/static/chunks/fd9d1056-5798c5bc23aff152.js:1:95162)\n    at https://planspiegel-landing.vercel.app/_next/static/chunks/fd9d1056-5798c5bc23aff152.js:1:91088\n    at https://planspiegel-landing.vercel.app/_next/static/chunks/fd9d1056-5798c5bc23aff152.js:1:91095\n    at oZ (https://planspiegel-landing.vercel.app/_next/static/chunks/fd9d1056-5798c5bc23aff152.js:1:91200)\n    at MessagePort.T (https://planspiegel-landing.vercel.app/_next/static/chunks/117-a80693ccfba01bca.js:1:83990)",
+            "sourceLocation": {
+              "type": "source-location",
+              "url": "https://planspiegel-landing.vercel.app/_next/static/chunks/fd9d1056-5798c5bc23aff152.js",
+              "urlProvider": "network",
+              "line": 0,
+              "column": 24669
+            }
+          },
+          {
+            "source": "exception",
+            "description": "Error: Minified React error #423; visit https://react.dev/errors/423 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.\n    at iZ (https://planspiegel-landing.vercel.app/_next/static/chunks/fd9d1056-5798c5bc23aff152.js:1:118349)\n    at ia (https://planspiegel-landing.vercel.app/_next/static/chunks/fd9d1056-5798c5bc23aff152.js:1:95162)\n    at https://planspiegel-landing.vercel.app/_next/static/chunks/fd9d1056-5798c5bc23aff152.js:1:94984\n    at il (https://planspiegel-landing.vercel.app/_next/static/chunks/fd9d1056-5798c5bc23aff152.js:1:94991)\n    at oJ (https://planspiegel-landing.vercel.app/_next/static/chunks/fd9d1056-5798c5bc23aff152.js:1:92347)\n    at oZ (https://planspiegel-landing.vercel.app/_next/static/chunks/fd9d1056-5798c5bc23aff152.js:1:91766)\n    at MessagePort.T (https://planspiegel-landing.vercel.app/_next/static/chunks/117-a80693ccfba01bca.js:1:83990)",
+            "sourceLocation": {
+              "type": "source-location",
+              "url": "https://planspiegel-landing.vercel.app/_next/static/chunks/fd9d1056-5798c5bc23aff152.js",
+              "urlProvider": "network",
+              "line": 0,
+              "column": 118348
+            }
+          },
+          {
+            "source": "exception",
+            "description": "Error: Minified React error #425; visit https://react.dev/errors/425 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.\n    at sq (https://planspiegel-landing.vercel.app/_next/static/chunks/fd9d1056-5798c5bc23aff152.js:1:146765)\n    at co (https://planspiegel-landing.vercel.app/_next/static/chunks/fd9d1056-5798c5bc23aff152.js:1:158779)\n    at https://planspiegel-landing.vercel.app/_next/static/chunks/fd9d1056-5798c5bc23aff152.js:1:99416\n    at iu (https://planspiegel-landing.vercel.app/_next/static/chunks/fd9d1056-5798c5bc23aff152.js:1:103867)\n    at ia (https://planspiegel-landing.vercel.app/_next/static/chunks/fd9d1056-5798c5bc23aff152.js:1:95223)\n    at https://planspiegel-landing.vercel.app/_next/static/chunks/fd9d1056-5798c5bc23aff152.js:1:91088\n    at https://planspiegel-landing.vercel.app/_next/static/chunks/fd9d1056-5798c5bc23aff152.js:1:91095\n    at oZ (https://planspiegel-landing.vercel.app/_next/static/chunks/fd9d1056-5798c5bc23aff152.js:1:91200)\n    at MessagePort.T (https://planspiegel-landing.vercel.app/_next/static/chunks/117-a80693ccfba01bca.js:1:83990)",
+            "sourceLocation": {
+              "type": "source-location",
+              "url": "https://planspiegel-landing.vercel.app/_next/static/chunks/fd9d1056-5798c5bc23aff152.js",
+              "urlProvider": "network",
+              "line": 0,
+              "column": 146764
+            }
+          },
+          {
+            "source": "exception",
+            "description": "Error: Minified React error #425; visit https://react.dev/errors/425 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.\n    at sq (https://planspiegel-landing.vercel.app/_next/static/chunks/fd9d1056-5798c5bc23aff152.js:1:146765)\n    at co (https://planspiegel-landing.vercel.app/_next/static/chunks/fd9d1056-5798c5bc23aff152.js:1:158779)\n    at https://planspiegel-landing.vercel.app/_next/static/chunks/fd9d1056-5798c5bc23aff152.js:1:99416\n    at iu (https://planspiegel-landing.vercel.app/_next/static/chunks/fd9d1056-5798c5bc23aff152.js:1:103867)\n    at ia (https://planspiegel-landing.vercel.app/_next/static/chunks/fd9d1056-5798c5bc23aff152.js:1:95223)\n    at https://planspiegel-landing.vercel.app/_next/static/chunks/fd9d1056-5798c5bc23aff152.js:1:91088\n    at https://planspiegel-landing.vercel.app/_next/static/chunks/fd9d1056-5798c5bc23aff152.js:1:91095\n    at oZ (https://planspiegel-landing.vercel.app/_next/static/chunks/fd9d1056-5798c5bc23aff152.js:1:91200)\n    at MessagePort.T (https://planspiegel-landing.vercel.app/_next/static/chunks/117-a80693ccfba01bca.js:1:83990)",
+            "sourceLocation": {
+              "type": "source-location",
+              "url": "https://planspiegel-landing.vercel.app/_next/static/chunks/117-a80693ccfba01bca.js",
+              "urlProvider": "network",
+              "line": 0,
+              "column": 81662
+            }
+          }
+        ]
+      }
+    },
+    "deprecations": {
+      "id": "deprecations",
+      "title": "Avoids deprecated APIs",
+      "description": "Deprecated APIs will eventually be removed from the browser. [Learn more about deprecated APIs](https://developer.chrome.com/docs/lighthouse/best-practices/deprecations/).",
+      "score": 1,
+      "scoreDisplayMode": "binary",
+      "details": {
+        "type": "table",
+        "headings": [],
+        "items": []
+      }
+    },
+    "origin-isolation": {
+      "id": "origin-isolation",
+      "title": "Ensure proper origin isolation with COOP",
+      "description": "The Cross-Origin-Opener-Policy (COOP) can be used to isolate the top-level window from other documents such as pop-ups. [Learn more about deploying the COOP header.](https://web.dev/articles/why-coop-coep#coop)",
+      "score": 1,
+      "scoreDisplayMode": "informative",
+      "details": {
+        "type": "table",
+        "headings": [
+          {
+            "key": "description",
+            "valueType": "text",
+            "subItemsHeading": {
+              "key": "description"
+            },
+            "label": "Description"
+          },
+          {
+            "key": "directive",
+            "valueType": "code",
+            "subItemsHeading": {
+              "key": "directive"
+            },
+            "label": "Directive"
+          },
+          {
+            "key": "severity",
+            "valueType": "text",
+            "subItemsHeading": {
+              "key": "severity"
+            },
+            "label": "Severity"
+          }
+        ],
+        "items": [
+          {
+            "description": "No COOP header found",
+            "severity": "High"
+          }
+        ]
+      }
+    },
+    "csp-xss": {
+      "id": "csp-xss",
+      "title": "Ensure CSP is effective against XSS attacks",
+      "description": "A strong Content Security Policy (CSP) significantly reduces the risk of cross-site scripting (XSS) attacks. [Learn how to use a CSP to prevent XSS](https://developer.chrome.com/docs/lighthouse/best-practices/csp-xss/)",
+      "score": 1,
+      "scoreDisplayMode": "informative",
+      "details": {
+        "type": "table",
+        "headings": [
+          {
+            "key": "description",
+            "valueType": "text",
+            "subItemsHeading": {
+              "key": "description"
+            },
+            "label": "Description"
+          },
+          {
+            "key": "directive",
+            "valueType": "code",
+            "subItemsHeading": {
+              "key": "directive"
+            },
+            "label": "Directive"
+          },
+          {
+            "key": "severity",
+            "valueType": "text",
+            "subItemsHeading": {
+              "key": "severity"
+            },
+            "label": "Severity"
+          }
+        ],
+        "items": [
+          {
+            "severity": "High",
+            "description": "No CSP found in enforcement mode"
+          }
+        ]
+      }
+    },
+    "has-hsts": {
+      "id": "has-hsts",
+      "title": "Use a strong HSTS policy",
+      "description": "Deployment of the HSTS header significantly reduces the risk of downgrading HTTP connections and eavesdropping attacks. A rollout in stages, starting with a low max-age is recommended. [Learn more about using a strong HSTS policy.](https://developer.chrome.com/docs/lighthouse/best-practices/has-hsts)",
+      "score": null,
+      "scoreDisplayMode": "notApplicable",
+      "details": {
+        "type": "table",
+        "headings": [],
+        "items": []
+      }
+    },
+    "third-party-summary": {
+      "id": "third-party-summary",
+      "title": "Minimize third-party usage",
+      "description": "Third-party code can significantly impact load performance. Limit the number of redundant third-party providers and try to load third-party code after your page has primarily finished loading. [Learn how to minimize third-party impact](https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/loading-third-party-javascript/).",
+      "score": null,
+      "scoreDisplayMode": "notApplicable",
+      "metricSavings": {
+        "TBT": 0
+      },
+      "guidanceLevel": 1
+    }
+  }
+}

@@ -1,0 +1,74 @@
+deploy:
+  stage: deploy
+  tags:
+    - ubuntu
+  image: ubuntu:latest
+  before_script:
+    # Install necessary tools and set up SSH
+    - sudo apt-get update
+    - sudo apt-get install -y openssh-client
+    - mkdir -p ~/.ssh
+    - echo "$SSH_PRIVATE_KEY" > ~/.ssh/id_rsa
+    - chmod 600 ~/.ssh/id_rsa
+    - ssh-keyscan -p $SSH_PORT -H $SERVER_IP >> ~/.ssh/known_hosts
+    - ssh-keyscan -H gitlab.hrz.tu-chemnitz.de >> ~/.ssh/known_hosts
+  script:
+    # Verify SSH connection
+    - ssh -i ~/.ssh/id_rsa -o StrictHostKeyChecking=no -p $SSH_PORT $SERVER_USER@$SERVER_IP "whoami"
+
+    # Clean up old .env.docker files
+    - ssh -i ~/.ssh/id_rsa -o StrictHostKeyChecking=no -p $SSH_PORT $SERVER_USER@$SERVER_IP "
+          rm -f ~/planspiegel/planspiegel-app/backend/.env.docker
+        "
+
+    # Clean and update the code base
+    - ssh -i ~/.ssh/id_rsa -o StrictHostKeyChecking=no -p $SSH_PORT $SERVER_USER@$SERVER_IP "
+          cd ~/planspiegel/planspiegel-app && git reset --hard &&
+       git clean -fd &&
+       git pull
+        "
+
+    # Dynamically generate the backend's .env.docker file
+    - ssh -i ~/.ssh/id_rsa -o StrictHostKeyChecking=no -p $SSH_PORT $SERVER_USER@$SERVER_IP "
+        echo 'OPENAI_API_KEY=$OPENAI_API_KEY' >> ~/planspiegel/planspiegel-app/backend/.env.docker &&
+        echo 'MXTOOLBOX_KEY=$MXTOOLBOX_KEY' >> ~/planspiegel/planspiegel-app/backend/.env.docker &&
+        echo 'POSTGRES_USER=$POSTGRES_USER' >> ~/planspiegel/planspiegel-app/backend/.env.docker &&
+        echo 'POSTGRES_PASSWORD=$POSTGRES_PASSWORD' >> ~/planspiegel/planspiegel-app/backend/.env.docker &&
+        echo 'POSTGRES_DB=$POSTGRES_DB' >> ~/planspiegel/planspiegel-app/backend/.env.docker &&
+        echo 'POSTGRES_PORT=$POSTGRES_PORT' >> ~/planspiegel/planspiegel-app/backend/.env.docker &&
+        echo 'POSTGRES_HOST=$POSTGRES_HOST' >> ~/planspiegel/planspiegel-app/backend/.env.docker &&
+        echo 'REDIS_URL=$REDIS_URL' >> ~/planspiegel/planspiegel-app/backend/.env.docker &&
+        echo 'REDIS_PASSWORD=$REDIS_PASSWORD' >> ~/planspiegel/planspiegel-app/backend/.env.docker &&
+        echo 'GOOGLE_CLIENT_ID=$GOOGLE_CLIENT_ID' >> ~/planspiegel/planspiegel-app/backend/.env.docker &&
+        echo 'GOOGLE_CLIENT_SECRET=$GOOGLE_CLIENT_SECRET' >> ~/planspiegel/planspiegel-app/backend/.env.docker &&
+        echo 'SESSION_SECRET_KEY=$SESSION_SECRET_KEY' >> ~/planspiegel/planspiegel-app/backend/.env.docker &&
+        echo 'MINIO_ACCESS_KEY=$MINIO_ACCESS_KEY' >> ~/planspiegel/planspiegel-app/backend/.env.docker &&
+        echo 'MINIO_SECRET_KEY=$MINIO_SECRET_KEY' >> ~/planspiegel/planspiegel-app/backend/.env.docker &&
+        echo 'MINIO_ROOT_USER=$MINIO_ROOT_USER' >> ~/planspiegel/planspiegel-app/backend/.env.docker &&
+        echo 'MINIO_ROOT_PASSWORD=$MINIO_ROOT_PASSWORD' >> ~/planspiegel/planspiegel-app/backend/.env.docker &&
+        echo 'MINIO_ENDPOINT_URL=$MINIO_ENDPOINT_URL' >> ~/planspiegel/planspiegel-app/backend/.env.docker &&
+        echo 'FRONTEND_URL=$FRONTEND_URL' >> ~/planspiegel/planspiegel-app/backend/.env.docker
+      "
+
+    # Dynamically generate frontend's .env file
+    - ssh -i ~/.ssh/id_rsa -o StrictHostKeyChecking=no -p $SSH_PORT $SERVER_USER@$SERVER_IP "
+        echo 'VITE_API_URL=$BACKEND_API_URL' > ~/planspiegel/planspiegel-app/frontend/.env
+      "
+
+    # Deploy backend services
+    - ssh -i ~/.ssh/id_rsa -o StrictHostKeyChecking=no -p $SSH_PORT $SERVER_USER@$SERVER_IP "
+        cd ~/planspiegel/planspiegel-app/backend &&
+        docker-compose pull &&
+        docker-compose up -d && docker-compose up -d --build planspiegel_backend
+      "
+
+    # Build and deploy the frontend
+    - ssh -i ~/.ssh/id_rsa -o StrictHostKeyChecking=no -p $SSH_PORT $SERVER_USER@$SERVER_IP "
+        rm -rf ~/planspiegel/planspiegel-app/frontend/dist/* &&
+        cd ~/planspiegel/planspiegel-app/frontend &&
+        yarn install &&
+        yarn build
+      "
+
+  only:
+    - main

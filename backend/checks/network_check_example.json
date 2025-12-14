@@ -1,0 +1,1492 @@
+{
+  "timestamp": "2025-02-02T01:38:16.677464",
+  "target": "https://planspiegel.com/",
+  "results": {
+    "blacklist": {
+      "command": "blacklist",
+      "status": "success",
+      "data": {
+        "UID": null,
+        "ArgumentType": "domain",
+        "Command": "blacklist",
+        "IsTransitioned": false,
+        "CommandArgument": "planspiegel.com",
+        "TimeRecorded": "2025-02-01T18:37:44.8171176-06:00",
+        "ReportingNameServer": null,
+        "TimeToComplete": "116",
+        "RelatedIP": null,
+        "ResourceRecordType": 0,
+        "IsEmptySubDomain": false,
+        "IsEndpoint": false,
+        "HasSubscriptions": false,
+        "AlertgroupSubscriptionId": null,
+        "Failed": [],
+        "Warnings": [],
+        "Passed": [
+          {
+            "ID": 323,
+            "Name": "ivmURI",
+            "Url": "https://mxtoolbox.com/Problem/blacklist/ivmURI?page=prob_blacklist&showlogin=1&hidetoc=1&action=blacklist:planspiegel.com",
+            "PublicDescription": null,
+            "BlacklistResponseTime": "0",
+            "IsExcludedByUser": false
+          },
+          {
+            "ID": 190,
+            "Name": "Nordspam DBL",
+            "Url": "https://mxtoolbox.com/Problem/blacklist/Nordspam-DBL?page=prob_blacklist&showlogin=1&hidetoc=1&action=blacklist:planspiegel.com",
+            "PublicDescription": null,
+            "BlacklistResponseTime": "0",
+            "IsExcludedByUser": false
+          },
+          {
+            "ID": 279,
+            "Name": "SEM FRESH",
+            "Url": "https://mxtoolbox.com/Problem/blacklist/SEM-FRESH?page=prob_blacklist&showlogin=1&hidetoc=1&action=blacklist:planspiegel.com",
+            "PublicDescription": null,
+            "BlacklistResponseTime": "34",
+            "IsExcludedByUser": false
+          },
+          {
+            "ID": 282,
+            "Name": "SEM URI",
+            "Url": "https://mxtoolbox.com/Problem/blacklist/SEM-URI?page=prob_blacklist&showlogin=1&hidetoc=1&action=blacklist:planspiegel.com",
+            "PublicDescription": null,
+            "BlacklistResponseTime": "44",
+            "IsExcludedByUser": false
+          },
+          {
+            "ID": 283,
+            "Name": "SEM URIRED",
+            "Url": "https://mxtoolbox.com/Problem/blacklist/SEM-URIRED?page=prob_blacklist&showlogin=1&hidetoc=1&action=blacklist:planspiegel.com",
+            "PublicDescription": null,
+            "BlacklistResponseTime": "34",
+            "IsExcludedByUser": false
+          },
+          {
+            "ID": 277,
+            "Name": "SORBS RHSBL BADCONF",
+            "Url": "https://mxtoolbox.com/Problem/blacklist/SORBS-RHSBL-BADCONF?page=prob_blacklist&showlogin=1&hidetoc=1&action=blacklist:planspiegel.com",
+            "PublicDescription": null,
+            "BlacklistResponseTime": "0",
+            "IsExcludedByUser": false
+          },
+          {
+            "ID": 276,
+            "Name": "SORBS RHSBL NOMAIL",
+            "Url": "https://mxtoolbox.com/Problem/blacklist/SORBS-RHSBL-NOMAIL?page=prob_blacklist&showlogin=1&hidetoc=1&action=blacklist:planspiegel.com",
+            "PublicDescription": null,
+            "BlacklistResponseTime": "0",
+            "IsExcludedByUser": false
+          },
+          {
+            "ID": 284,
+            "Name": "Spamhaus DBL",
+            "Url": "https://mxtoolbox.com/Problem/blacklist/Spamhaus-DBL?page=prob_blacklist&showlogin=1&hidetoc=1&action=blacklist:planspiegel.com",
+            "PublicDescription": null,
+            "BlacklistResponseTime": "0",
+            "IsExcludedByUser": false
+          },
+          {
+            "ID": 285,
+            "Name": "SURBL multi",
+            "Url": "https://mxtoolbox.com/Problem/blacklist/SURBL-multi?page=prob_blacklist&showlogin=1&hidetoc=1&action=blacklist:planspiegel.com",
+            "PublicDescription": null,
+            "BlacklistResponseTime": "16",
+            "IsExcludedByUser": false
+          }
+        ],
+        "Timeouts": [],
+        "Errors": [],
+        "IsError": false,
+        "Information": [],
+        "MultiInformation": [],
+        "Transcript": [
+          {
+            "Transcript": "DNS - Load Balancers\r\nLookupServer 116ms\r\n"
+          }
+        ],
+        "MxRep": 100,
+        "EmailServiceProvider": null,
+        "DnsServiceProvider": null,
+        "DnsServiceProviderIdentifier": null,
+        "RelatedLookups": [
+          {
+            "Name": "dns lookup",
+            "URL": "https://mxtoolbox.com/api/v1/lookup/a/planspiegel.com",
+            "Command": "a",
+            "CommandArgument": "planspiegel.com"
+          },
+          {
+            "Name": "dns check",
+            "URL": "https://mxtoolbox.com/api/v1/lookup/dns/planspiegel.com",
+            "Command": "dns",
+            "CommandArgument": "planspiegel.com"
+          },
+          {
+            "Name": "mx lookup",
+            "URL": "https://mxtoolbox.com/api/v1/lookup/mx/planspiegel.com",
+            "Command": "mx",
+            "CommandArgument": "planspiegel.com"
+          },
+          {
+            "Name": "spf lookup",
+            "URL": "https://mxtoolbox.com/api/v1/lookup/spf/planspiegel.com",
+            "Command": "spf",
+            "CommandArgument": "planspiegel.com"
+          }
+        ]
+      }
+    },
+    "smtp": {
+      "command": "smtp",
+      "status": "success",
+      "data": {
+        "UID": null,
+        "ArgumentType": "domain",
+        "Command": "smtp",
+        "IsTransitioned": false,
+        "CommandArgument": "planspiegel.com",
+        "TimeRecorded": "2025-02-01T18:37:44.8351147-06:00",
+        "ReportingNameServer": null,
+        "TimeToComplete": "15020",
+        "RelatedIP": null,
+        "ResourceRecordType": 0,
+        "IsEmptySubDomain": false,
+        "IsEndpoint": false,
+        "HasSubscriptions": false,
+        "AlertgroupSubscriptionId": null,
+        "Failed": [
+          {
+            "ID": 207,
+            "Name": "SMTP Connect",
+            "Info": "Failed To Connect",
+            "Url": "https://mxtoolbox.com/Problem/smtp/SMTP-Connect?page=prob_smtp&showlogin=1&hidetoc=1&action=smtp:planspiegel.com",
+            "PublicDescription": null,
+            "IsExcludedByUser": false
+          }
+        ],
+        "Warnings": [],
+        "Passed": [],
+        "Timeouts": [
+          {
+            "ID": 206,
+            "Name": "SMTP Reverse DNS Resolution",
+            "Info": "<p class=\"short-text\">\r\n\tWe were unable to perform a reverse lookup (PTR) on the IP Address of your mail server. &nbsp;This is a problem because many organizations will not accept email from a server without a PTR record.</p>\r\n<p dir=\"ltr\">\r\n\tWe recommend performing a <a href=\"https://mxtoolbox.com/ReverseLookup.aspx\" ng-click=\"tool($event,'ptr')\">Reverse Lookup</a>&nbsp;on the IP Address for your mail server to try to find the cause of the error. You will need to contact your ISP and ask them to setup a correct PTR record for you. You should ask that this record be the same as the hostname of your mail server. &nbsp;We also recommend configuring your server to include this name in your SMTP banner.</p>\r\n<h3>\r\n\tAdditional Information</h3>\r\n<p>\r\n\tWhen a sending server makes a connection to the recipient server, the recipient server notes the sending IP address and performs a reverse lookup, called a PTR lookup, named after the type of DNS record used. If the result of the <a href=\"https://mxtoolbox.com/problem/smtp/smtp-reverse-dns-mismatch\" ng-click=\"problem($event,'smtp-reverse-dns-mismatch')\">reverse lookup matches</a> the result of a forward DNS Lookup, then it&#39;s much more likely that the message is legitimate. If the IP address doesn&#39;t match, it&#39;s much more likely that the sending address was spoofed and therefore much more likely that it&#39;s unwanted and could be considered spam.&nbsp;</p>\r\n<p>\r\n\tAn additional test that can be performed is an <a href=\"https://mxtoolbox.com/problem/smtp/smtp-banner-check\" ng-click=\"problem($event,'smtp-banner-check')\">SMTP Banner check</a> which compares the hostname announced by the server upon initial connection with the forward and reverse lookups.</p>\r\n<p>\r\n\tOnly the organization which controls an IP can configure PTR records. PTR record queries are sent to the owner of the IP address which is the ISP, unlike other DNS queries which are sent to the DNS server of whoever owns the domain.</p>\r\n",
+            "Url": null,
+            "PublicDescription": null,
+            "IsExcludedByUser": false
+          },
+          {
+            "ID": 208,
+            "Name": "SMTP Server Disconnected",
+            "Info": "<p class=\"short-text\">\r\n\tWe were able to connect to your email server on port 25. Your server either disconnected before we sent our final QUIT command or did not respond to one of our other diagnostic commands within 15 seconds.</p>\r\n<h3>\r\n\tAdditional Information</h3>\r\n<p>\r\n\tThis may be due to a network problem, or could be an anti-spam feature of your email system. On it&#39;s own this warning does not point to any specific problem, but can be helpful in diagnosis when combined with other errors.</p>\r\n",
+            "Url": null,
+            "PublicDescription": null,
+            "IsExcludedByUser": false
+          },
+          {
+            "ID": 209,
+            "Name": "SMTP Open Relay",
+            "Info": "<p class=\"short-text\">\r\n\tDuring our diagnostics we attempt to simulate sending a message to a fake email address; test@example.com. We do this to try to detect if your server is an open relay, which means that it accepts mail to domains for which it is not responsible and then passes it along to the proper server. Your server responded with a 200 accepted code to our RCPT TO command. THIS DOES NOT MEAN YOU ARE OPERATING AN OPEN RELAY, only that you may be an open relay.</p>\r\n<h3>\r\n\tAdditional Information</h3>\r\n<p>\r\n\tMany servers now pretend to accept incorrectly addressed email but then discard those message without forwarding them. This technique is used to prevent a directory harvest attack. &nbsp;In a directory harvest attack a spammer will attempt to send to thousands of email address at your domain trying to find real ones. When your server responds with an error (5xx), the spammer knows that it is not a real email address. When your server accepts the message (2xx), the spammer knows that was a real email address.</p>\r\n",
+            "Url": null,
+            "PublicDescription": null,
+            "IsExcludedByUser": false
+          },
+          {
+            "ID": 210,
+            "Name": "SMTP Banner Check",
+            "Info": "<p class=\"short-text\">\r\n\tThe SMTP banner issued by your email server did not contain the hostname we resolved for your server&rsquo;s IP address.</p>\r\n<h3>\r\n\tAdditional Information</h3>\r\n<p>\r\n\tEmail servers answer connections on port 25 with a string of text called an SMTP Banner whose purpose is to announce the server and any information that the administrator would like to convey to the world.</p>\r\n<p>\r\n\tIt is best practice to put the name of your server in your SMTP banner so that anybody who connects via your IP Address has a clue as to who they are talking to. You will get this warning if the name you present yourself as is not in the same domain as the hostname we get when we perform a PTR lookup on your IP Address.</p>\r\n<p>\r\n\tFor a time many servers would &quot;mask&quot; their SMTP banners by replacing the characters with asterisks to anybody outside of their network. The logic behind this was often that you did not want to broadcast any information about your network to people outside for fear of giving them any information that might help them in an attack against your server. The benefits of doing this are minimal and many servers perform a banner check as part of spam mitigation, so it has a negative cost associated with the practice. Our tool will issue a warning if your banner is masked.</p>\r\n<p>\r\n\tSome receiving mail servers may use a mismatched or masked banner as an indication of a possible spam source in a scoring system, but most will not reject incoming mail solely on this basis.</p>\r\n<p>\r\n\tIf you do not have a PTR record, or your record does not match your hostname, we recommend that you contact your ISP and ask them to setup a reverse (PTR) record that matches the hostname of your mail server.</p>\r\n",
+            "Url": null,
+            "PublicDescription": null,
+            "IsExcludedByUser": false
+          },
+          {
+            "ID": 220,
+            "Name": "SMTP TLS",
+            "Info": "<p class=\"short-text\">\r\n\tYour SMTP email server does advertise support for TLS. &nbsp;After connecting to your mail server we issue an EHLO command to introduce ourselves and to request that your server announce which commands and protocols it supports. Your server&#39;s response did not include &quot;250-STARTTLS&quot; indicating TLS support.</p>\r\n<h3>\r\n\tAdditional Information</h3>\r\n<p>\r\n\tTLS stands for Transport Layer Security and allows email servers to exchange emails over an encrypted connection using the same type of mechanism as HTTPS uses to secure websites. In all but a few cases, you should still be able to send and receive email but your messages will be transmitted in plain text without TLS encryption.</p>\r\n",
+            "Url": null,
+            "PublicDescription": null,
+            "IsExcludedByUser": false
+          },
+          {
+            "ID": 221,
+            "Name": "SMTP Connection Time",
+            "Info": "<p class=\"short-text\">\r\n\tWe were able to connect to your mail server on port 25, but the connection took much longer than expected. This could indicate that your email server is under heavy load.</p>\r\n<p>\r\n\tHere are the levels for which we issue warnings and alerts:</p>\r\n<ul>\r\n\t<li>\r\n\t\tOver 5 Seconds: Warning</li>\r\n\t<li>\r\n\t\tOver 8 Seconds: Alert</li>\r\n</ul>\r\n<p>\r\n\tHaving this warning on your lookup does not necessarily mean that you will have a problem receiving mail. It is simply a warning that things are less than optimal. This could end up causing users to experience delays with inbound mail.</p>\r\n<h3>\r\n\tAdditional Information</h3>\r\n<h4>\r\n\tTarpitting</h4>\r\n<p>\r\n\tIt is also possible your server is &ldquo;Tar pitting.&rdquo; Tar pitting is a technique used by some email servers to slow down spammers. The idea is that legitimate senders will wait longer to establish a connection than spammers will.</p>\r\n<p>\r\n\tHere is a link to a link to the TechNet article with <a href=\"http://technet.microsoft.com/en-us/library/bb123891.aspx#TF\" target=\"_blank\">more information about Tarpitting</a></p>\r\n",
+            "Url": null,
+            "PublicDescription": null,
+            "IsExcludedByUser": false
+          },
+          {
+            "ID": 222,
+            "Name": "SMTP Transaction Time",
+            "Info": "<div class=\"JL\" id=\":op.co\" style=\"font-family: arial, sans-serif; color: rgb(38, 38, 38); font-size: 13px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;\">\r\n\t<div class=\"Mu SP\" id=\":ou.ma\" style=\"font-family: arial, sans-serif; font-size: 13px; line-height: 16px; margin-bottom: 6px; transition: opacity 0.218s ease; -webkit-transition: opacity 0.218s ease; opacity: 1; word-wrap: break-word; word-break: break-word;\">\r\n\t\t<div id=\":ou.co\" style=\"font-family: arial, sans-serif;\">\r\n\t\t\tWe were able to connect to your mail server on port 25, but the diagnostic session took longer than expected. This could indicate that your email server is under heavy load.</div>\r\n\t</div>\r\n</div>\r\n<p>\r\n\t<span id=\"ctl00_ContentPlaceHolder1_lblProblemDescription\">Here are the levels for which we issue warnings and alerts:</span></p>\r\n<ul>\r\n\t<li>\r\n\t\t<span id=\"ctl00_ContentPlaceHolder1_lblProblemDescription\">Over 5 Seconds: Warning</span></li>\r\n\t<li>\r\n\t\t<span id=\"ctl00_ContentPlaceHolder1_lblProblemDescription\">Over 8 Seconds: Alert</span></li>\r\n</ul>\r\n<p>\r\n\t<span id=\"ctl00_ContentPlaceHolder1_lblProblemDescription\">Having this warning on your lookup does not necessarily mean that you will have a problem receiving mail. It is simply a warning that things are less than optimal. This could end up causing users to experience delays with inbound mail.</span></p>\r\n<h3>\r\n\tAdditional Information</h3>\r\n<h4>\r\n\tTarpitting</h4>\r\n<p>\r\n\tIt is also possible your server is &ldquo;Tar pitting.&rdquo; Tar pitting is a technique used by some email servers to slow down spammers. The idea is that legitimate senders will wait longer to establish a connection than spammers will.</p>\r\n<p>\r\n\tHere is a link to a link to the TechNet article with <a href=\"http://technet.microsoft.com/en-us/library/bb123891.aspx#TF\" target=\"_blank\">more information about Tarpitting</a></p>\r\n",
+            "Url": null,
+            "PublicDescription": null,
+            "IsExcludedByUser": false
+          },
+          {
+            "ID": 223,
+            "Name": "SMTP Reverse DNS Mismatch",
+            "Info": "<p class=\"short-text\">\r\n\tThe forward lookup (A) of the hostname hostname did not match the reverse lookup (PTR) for the IP Address.&nbsp;</p>\r\n<p dir=\"ltr\">\r\n\tExample of a correctly matching pair of records:</p>\r\n<p dir=\"ltr\">\r\n\t(A) lookup for <a href=\"https://mxtoolbox.com/supertool.aspx?action=a:smtp.mxtoolbox.com\" ng-click=\"lookup($event,'smtp','smtp.mxtoolbox.com')\" target=\"_blank\">smtp.mxtoolbox.com</a>&nbsp;resolves to 208.123.79.38</p>\r\n<p dir=\"ltr\">\r\n\t(PTR) lookup for <a href=\"https://mxtoolbox.com/supertool.aspx?action=ptr:208.123.79.38\" ng-click=\"lookup($event,'ptr','208.123.79.38')\" target=\"_blank\">208.123.79.38</a>&nbsp;reverses to smtp.mxtoolbox.com</p>\r\n<h3>\r\n\tAdditional Information</h3>\r\n<p dir=\"ltr\">\r\n\tSome receiving mail servers may use this as an indication of a possible spam source in a scoring system. &nbsp;Most will not reject incoming mail solely on this basis. &nbsp;We recommend that you contact your ISP and ask them to setup a reverse record (PTR) that matches the hostname of your mail server.</p>\r\n",
+            "Url": null,
+            "PublicDescription": null,
+            "IsExcludedByUser": false
+          },
+          {
+            "ID": 416,
+            "Name": "SMTP Valid Hostname",
+            "Info": "<p>\r\n\tYour Reverse DNS Record (PTR) is not a valid host name. According to email sending best practices, a PTR Record should be a valid host name. If the PTR Record is not a valid hostname, there is a likelihood that you will experience email delivery issues with anti-spam services.</p>\r\n<p>\r\n\t&nbsp;</p>\r\n",
+            "Url": null,
+            "PublicDescription": null,
+            "IsExcludedByUser": false
+          },
+          {
+            "ID": 441,
+            "Name": "DMARC Record Published",
+            "Info": "<h2 style=\"box-sizing: border-box; font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-weight: 500; line-height: 1.1; color: rgb(51, 51, 51); margin-top: 20px; margin-bottom: 2px; font-size: 18px; padding: 10px 0px;\">\r\n\tIf you are encountering this error of No DMARC Record found, this means that your domain does not have a published DMARC record. DMARC Records are published via DNS as a text(TXT) record. They will let receiving servers know what they should do with non-aligned email received from your domain.</h2>\r\n<p style=\"box-sizing: border-box; margin: 0px 0px 10px;\">\r\n\t<span id=\"ctl00_ContentPlaceHolder1_lblProblemDescription\" style=\"box-sizing: border-box; font-size: 14px;\">Domain-based Message Authentication, Reporting, and Conformance (DMARC) is a mechanism for improving mail handling by mail-receiving organizations. The ultimate purpose of DMARC, according to&nbsp;<a href=\"http://web.archive.org/web/20190321174755/https://tools.ietf.org/html/rfc7489\" style=\"box-sizing: border-box; background-color: transparent; color: rgb(51, 122, 183); text-decoration-line: none;\">RFC-7489</a>&nbsp;is to provide a &ldquo;mechanism by which email operators leverage existing authentication and policy advertisement technologies to enable both message-stream feedback and enforcement of policies against unauthenticated email. Email originating organizations utilize DMARC in order to express domain-level distribution policies/preferences for message validation, disposition, and reporting.</span></p>\r\n<h2 style=\"box-sizing: border-box; font-family: inherit; font-weight: 500; line-height: 1.1; color: inherit; margin-top: 20px; margin-bottom: 2px; font-size: 18px; padding: 10px 0px;\">\r\n\t<span id=\"ctl00_ContentPlaceHolder1_lblProblemDescription\" style=\"box-sizing: border-box; color: rgb(51, 51, 51); font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 14px;\">How DMARC Works:</span></h2>\r\n<h2 style=\"box-sizing: border-box; font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-weight: 500; line-height: 1.1; color: rgb(51, 51, 51); margin-top: 20px; margin-bottom: 2px; font-size: 18px; padding: 10px 0px;\">\r\n\t&nbsp;</h2>\r\n<p style=\"box-sizing: border-box; margin: 0px 0px 10px;\">\r\n\t<span id=\"ctl00_ContentPlaceHolder1_lblProblemDescription\" style=\"box-sizing: border-box; font-size: 14px;\">DMARC adoption has risen dramatically and has a positive or negative impact on your email deliverability. All of the major email providers support DMARC. By some measures, 80% of mailboxes worldwide are protected by DMARC.</span></p>\r\n<p style=\"box-sizing: border-box; margin: 0px 0px 10px;\">\r\n\t<span id=\"ctl00_ContentPlaceHolder1_lblProblemDescription\" style=\"box-sizing: border-box; font-size: 14px;\">DMARC dramatically improves on SPF and DKIM by letting you:</span></p>\r\n<ul style=\"box-sizing: border-box; margin-top: 0px; margin-bottom: 10px; list-style: url(&quot;/web/20190321174615im_/https://mxtoolbox.com/Public/images/list-arrow.png&quot;) circle;\">\r\n\t<li style=\"box-sizing: border-box;\">\r\n\t\t<span id=\"ctl00_ContentPlaceHolder1_lblProblemDescription\" style=\"box-sizing: border-box; font-size: 14px;\">Monitor, detect and fix real world problems with your SPF and DKIM configuration</span></li>\r\n\t<li style=\"box-sizing: border-box;\">\r\n\t\t<span id=\"ctl00_ContentPlaceHolder1_lblProblemDescription\" style=\"box-sizing: border-box; font-size: 14px;\">See the email volumes you&rsquo;re delivering to inboxes</span></li>\r\n\t<li style=\"box-sizing: border-box;\">\r\n\t\t<span id=\"ctl00_ContentPlaceHolder1_lblProblemDescription\" style=\"box-sizing: border-box; font-size: 14px;\">Identify threat emails pretending to come your domain. (Spoofing)</span></li>\r\n\t<li style=\"box-sizing: border-box;\">\r\n\t\t<span id=\"ctl00_ContentPlaceHolder1_lblProblemDescription\" style=\"box-sizing: border-box; font-size: 14px;\">Control the delivery of your email and defend against spoofing attacks.</span></li>\r\n</ul>\r\n<p style=\"box-sizing: border-box; margin: 0px 0px 10px;\">\r\n\t<span id=\"ctl00_ContentPlaceHolder1_lblProblemDescription\" style=\"box-sizing: border-box; font-size: 14px;\">&nbsp;</span></p>\r\n<h2 style=\"box-sizing: border-box; font-family: inherit; font-weight: 500; line-height: 1.1; color: inherit; margin-top: 20px; margin-bottom: 2px; font-size: 18px; padding: 10px 0px;\">\r\n\t<span id=\"ctl00_ContentPlaceHolder1_lblProblemDescription\" style=\"box-sizing: border-box; color: rgb(51, 51, 51); font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 14px;\">How do I set it up?</span></h2>\r\n<h2 style=\"box-sizing: border-box; font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-weight: 500; line-height: 1.1; color: rgb(51, 51, 51); margin-top: 20px; margin-bottom: 2px; font-size: 18px; padding: 10px 0px;\">\r\n\t&nbsp;</h2>\r\n<p style=\"box-sizing: border-box; margin: 0px 0px 10px;\">\r\n\t<span id=\"ctl00_ContentPlaceHolder1_lblProblemDescription\" style=\"box-sizing: border-box; font-size: 14px;\">It only takes a few minutes to get started with DMARC and you&rsquo;ll see immediate benefits. The first thing you need to do is add a simple DNS record to enable DMARC reporting. If you would like MxToolBox to handle your DMARC reporting for you, just add this simple text (TXT) record to your domain&rsquo;s DNS.</span></p>\r\n<p style=\"box-sizing: border-box; margin: 0px 0px 10px;\">\r\n\t<span id=\"ctl00_ContentPlaceHolder1_lblProblemDescription\" style=\"box-sizing: border-box; font-size: 14px;\"><a class=\"btn btn-success\" href=\"https://mxtoolbox.com/c/products/deliverycenter?source=problemdetails-dmarc\" style=\"box-sizing: border-box; background-color: rgb(92, 184, 92); color: rgb(255, 255, 255); text-decoration-line: none; display: block; padding: 6px 12px; margin: auto; line-height: 1.42857; text-align: center; white-space: nowrap; vertical-align: middle; touch-action: manipulation; cursor: pointer; user-select: none; background-image: none; border: 1px solid rgb(76, 174, 76); border-radius: 4px; width: 270px;\">Setup DMARC Deliverability Report</a></span></p>\r\n<h4 style=\"box-sizing: border-box; font-family: inherit; font-weight: 500; line-height: 18px; color: inherit; margin: 0px;\">\r\n\t<span id=\"ctl00_ContentPlaceHolder1_lblProblemDescription\" style=\"box-sizing: border-box; color: rgb(51, 51, 51); font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 14px;\">What is DMARC Authentication?</span></h4>\r\n<h2 style=\"box-sizing: border-box; font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-weight: 500; line-height: 1.1; color: rgb(51, 51, 51); margin-top: 20px; margin-bottom: 2px; font-size: 18px; padding: 10px 0px;\">\r\n\t&nbsp;</h2>\r\n<p style=\"box-sizing: border-box; margin: 0px 0px 10px;\">\r\n\t<span id=\"ctl00_ContentPlaceHolder1_lblProblemDescription\" style=\"box-sizing: border-box; font-size: 14px;\">To pass DMARC authentication, a message must both Pass and Align for either SPF or DKIM. Even if a message passed authentication for both SPF and DKIM, it could still fail DMARC authentication if one of them does not &ldquo;align.&rdquo; There are two ways to pass DMARC authentication:</span></p>\r\n<p style=\"box-sizing: border-box; margin: 0px 0px 10px; background: bisque; border: 1px solid black; padding: 15px;\">\r\n\t<span id=\"ctl00_ContentPlaceHolder1_lblProblemDescription\" style=\"box-sizing: border-box; font-size: 14px;\"><span style=\"box-sizing: border-box; font-weight: 700;\">SPF Passes</span>, meaning the message was delivered from an IP address published in the SPF policy of the the SMTP envelope &ldquo;mail from:&rdquo; (mfrom) domain,&nbsp;<u style=\"box-sizing: border-box;\">and also</u><br style=\"box-sizing: border-box;\" />\r\n\t<br style=\"box-sizing: border-box;\" />\r\n\t<span style=\"box-sizing: border-box; font-weight: 700;\">SPF Aligns</span>, meaning the &lt;From:&gt; header visible to the end user matches the domain used to authenticate SPF. (e.g. the envelope &ldquo;mail from:&rdquo; domain)</span></p>\r\n<p style=\"box-sizing: border-box; margin: 0px 0px 10px;\">\r\n\t<span id=\"ctl00_ContentPlaceHolder1_lblProblemDescription\" style=\"box-sizing: border-box; font-size: 14px;\">-OR-</span></p>\r\n<p style=\"box-sizing: border-box; margin: 0px 0px 10px; background: bisque; border: 1px solid black; padding: 15px;\">\r\n\t<span id=\"ctl00_ContentPlaceHolder1_lblProblemDescription\" style=\"box-sizing: border-box; font-size: 14px;\"><span style=\"box-sizing: border-box; font-weight: 700;\">DKIM Passes</span>, meaning the message was correctly signed by the d= domain in the DKIM header,&nbsp;<u style=\"box-sizing: border-box;\">and also</u><br style=\"box-sizing: border-box;\" />\r\n\t<br style=\"box-sizing: border-box;\" />\r\n\t<span style=\"box-sizing: border-box; font-weight: 700;\">DKIM Aligns</span>, meaning the &lt;From:&gt; header visible to the end user matches the d= domain in the DKIM header.</span></p>\r\n<h2 style=\"box-sizing: border-box; font-family: inherit; font-weight: 500; line-height: 1.1; color: inherit; margin-top: 20px; margin-bottom: 2px; font-size: 18px; padding: 10px 0px;\">\r\n\t<span id=\"ctl00_ContentPlaceHolder1_lblProblemDescription\" style=\"box-sizing: border-box; color: rgb(51, 51, 51); font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 14px;\">What is alignment again?</span></h2>\r\n<h2 style=\"box-sizing: border-box; font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-weight: 500; line-height: 1.1; color: rgb(51, 51, 51); margin-top: 20px; margin-bottom: 2px; font-size: 18px; padding: 10px 0px;\">\r\n\t&nbsp;</h2>\r\n<p style=\"box-sizing: border-box; margin: 0px 0px 10px;\">\r\n\t<span id=\"ctl00_ContentPlaceHolder1_lblProblemDescription\" style=\"box-sizing: border-box; font-size: 14px;\">When a message is aligned, the end user recipient knows who really sent the message.</span></p>\r\n<p style=\"box-sizing: border-box; margin: 0px 0px 10px;\">\r\n\t<span id=\"ctl00_ContentPlaceHolder1_lblProblemDescription\" style=\"box-sizing: border-box; font-size: 14px;\">SPF and DKIM are only authentication mechanisms. Passing SPF or DKIM authentication only means the receiving organization can identify the real sending domain. But typically, the end user receiving the message never sees this domain. Instead, they see the &ldquo;From:&rdquo; address in the email header.</span></p>\r\n<p style=\"box-sizing: border-box; margin: 0px 0px 10px;\">\r\n\t<span id=\"ctl00_ContentPlaceHolder1_lblProblemDescription\" style=\"box-sizing: border-box; font-size: 14px;\">So it&rsquo;s possible for a message to pass both SPF and DKIM authentication, but still trick the end user to thinking it came from someone else (i.e. spoofing). When a message is aligned, the friendly&nbsp;<from: style=\"box-sizing: border-box;\">domain visible in the email client matches the domain used to authenticate with SPF or DKIM.</from:></span></p>\r\n<h2 style=\"box-sizing: border-box; font-family: inherit; font-weight: 500; line-height: 1.1; color: inherit; margin-top: 20px; margin-bottom: 2px; font-size: 18px; padding: 10px 0px;\">\r\n\t<span id=\"ctl00_ContentPlaceHolder1_lblProblemDescription\" style=\"box-sizing: border-box; color: rgb(51, 51, 51); font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 14px;\">What DMARC Policy should I publish?</span></h2>\r\n<h2 style=\"box-sizing: border-box; font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-weight: 500; line-height: 1.1; color: rgb(51, 51, 51); margin-top: 20px; margin-bottom: 2px; font-size: 18px; padding: 10px 0px;\">\r\n\t&nbsp;</h2>\r\n<p style=\"box-sizing: border-box; margin: 0px 0px 10px;\">\r\n\t<span id=\"ctl00_ContentPlaceHolder1_lblProblemDescription\" style=\"box-sizing: border-box; font-size: 14px;\">If a message fails DMARC authentication, the receiving organization should honor the &ldquo;disposition&rdquo; you publish in your DMARC policy. This is the p= value in your DMARC record:<br style=\"box-sizing: border-box;\" />\r\n\t&nbsp;</span></p>\r\n<table class=\"table table-striped table-bordered table-condensed table-callout\" style=\"box-sizing: border-box; border-spacing: 0px; border-collapse: collapse; background-color: transparent; font-size: 13px; width: 1337px; max-width: 100%; margin-bottom: 20px; border-style: solid; border-color: rgb(221, 221, 221); border-radius: 6px; box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 10px; background-clip: padding-box;\">\r\n\t<tbody style=\"box-sizing: border-box;\">\r\n\t\t<tr style=\"box-sizing: border-box; background-color: rgb(249, 249, 249);\">\r\n\t\t\t<td style=\"box-sizing: border-box; padding: 5px; border-style: solid; border-color: rgb(221, 221, 221); line-height: 1.42857; vertical-align: top;\">\r\n\t\t\t\t<span id=\"ctl00_ContentPlaceHolder1_lblProblemDescription\" style=\"box-sizing: border-box; font-size: 14px;\">p=none</span></td>\r\n\t\t\t<td style=\"box-sizing: border-box; padding: 5px; border-style: solid; border-color: rgb(221, 221, 221); line-height: 1.42857; vertical-align: top;\">\r\n\t\t\t\t<span id=\"ctl00_ContentPlaceHolder1_lblProblemDescription\" style=\"box-sizing: border-box; font-size: 14px;\">Take no action other than sending aggregate reports. This let&rsquo;s you see which messages are failing DMARC and fix the problems. With reporting enabled, you will get reports from organizations all over the world, including all of the big mail providers like Google, Yahoo, and Hotmail.</span></td>\r\n\t\t</tr>\r\n\t\t<tr style=\"box-sizing: border-box;\">\r\n\t\t\t<td style=\"box-sizing: border-box; padding: 5px; border-style: solid; border-color: rgb(221, 221, 221); line-height: 1.42857; vertical-align: top;\">\r\n\t\t\t\t<span id=\"ctl00_ContentPlaceHolder1_lblProblemDescription\" style=\"box-sizing: border-box; font-size: 14px;\">p=quarantine</span></td>\r\n\t\t\t<td style=\"box-sizing: border-box; padding: 5px; border-style: solid; border-color: rgb(221, 221, 221); line-height: 1.42857; vertical-align: top;\">\r\n\t\t\t\t<span id=\"ctl00_ContentPlaceHolder1_lblProblemDescription\" style=\"box-sizing: border-box; font-size: 14px;\">Once your DMARC compliance is high enough, you may direct receiving organizations mark messages failing DMARC as spam. You&rsquo;re telling the world your SPF and DKIM deployment is very accurate and to be careful with any message that fail.</span></td>\r\n\t\t</tr>\r\n\t\t<tr style=\"box-sizing: border-box; background-color: rgb(249, 249, 249);\">\r\n\t\t\t<td style=\"box-sizing: border-box; padding: 5px; border-style: solid; border-color: rgb(221, 221, 221); line-height: 1.42857; vertical-align: top;\">\r\n\t\t\t\t<span id=\"ctl00_ContentPlaceHolder1_lblProblemDescription\" style=\"box-sizing: border-box; font-size: 14px;\">p=reject</span></td>\r\n\t\t\t<td style=\"box-sizing: border-box; padding: 5px; border-style: solid; border-color: rgb(221, 221, 221); line-height: 1.42857; vertical-align: top;\">\r\n\t\t\t\t<span id=\"ctl00_ContentPlaceHolder1_lblProblemDescription\" style=\"box-sizing: border-box; font-size: 14px;\">Once you&rsquo;re sure all of your important messages are passing DMARC, you may direct organizations to outright reject messages that fail. You&rsquo;re telling the world your SPF and DKIM deployment is fully complete and up to date.</span></td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n<p style=\"box-sizing: border-box; margin: 0px 0px 10px;\">\r\n\t<span id=\"ctl00_ContentPlaceHolder1_lblProblemDescription\" style=\"box-sizing: border-box; font-size: 14px;\">&nbsp;</span></p>\r\n",
+            "Url": null,
+            "PublicDescription": null,
+            "IsExcludedByUser": false
+          }
+        ],
+        "Errors": [],
+        "IsError": false,
+        "Information": [
+          {
+            "Banner": "Unable to connect after 15 seconds."
+          }
+        ],
+        "MultiInformation": [],
+        "Transcript": [
+          {
+            "Transcript": "Connecting to 104.21.88.48"
+          },
+          {
+            "Transcript": "\n\n2/1/2025 6:37:59 PM Connection attempt #1 - Unable to connect after 15 seconds. [15.02 sec]"
+          },
+          {
+            "Transcript": "\n\n"
+          },
+          {
+            "Transcript": "\nLookupServer 15020ms"
+          },
+          {
+            "Transcript": "\n"
+          }
+        ],
+        "MxRep": 0,
+        "EmailServiceProvider": null,
+        "DnsServiceProvider": null,
+        "DnsServiceProviderIdentifier": null,
+        "RelatedLookups": [
+          {
+            "Name": "dns lookup",
+            "URL": "https://mxtoolbox.com/api/v1/lookup/a/planspiegel.com",
+            "Command": "a",
+            "CommandArgument": "planspiegel.com"
+          },
+          {
+            "Name": "dns check",
+            "URL": "https://mxtoolbox.com/api/v1/lookup/dns/planspiegel.com",
+            "Command": "dns",
+            "CommandArgument": "planspiegel.com"
+          },
+          {
+            "Name": "mx lookup",
+            "URL": "https://mxtoolbox.com/api/v1/lookup/mx/planspiegel.com",
+            "Command": "mx",
+            "CommandArgument": "planspiegel.com"
+          },
+          {
+            "Name": "spf lookup",
+            "URL": "https://mxtoolbox.com/api/v1/lookup/spf/planspiegel.com",
+            "Command": "spf",
+            "CommandArgument": "planspiegel.com"
+          }
+        ]
+      }
+    },
+    "mx": {
+      "command": "mx",
+      "status": "success",
+      "data": {
+        "UID": null,
+        "ArgumentType": "domain",
+        "Command": "mx",
+        "IsTransitioned": false,
+        "CommandArgument": "planspiegel.com",
+        "TimeRecorded": "2025-02-01T18:37:44.8192333-06:00",
+        "ReportingNameServer": "miles.ns.cloudflare.com",
+        "TimeToComplete": "131",
+        "RelatedIP": null,
+        "ResourceRecordType": 15,
+        "IsEmptySubDomain": false,
+        "IsEndpoint": false,
+        "HasSubscriptions": false,
+        "AlertgroupSubscriptionId": null,
+        "Failed": [
+          {
+            "ID": 441,
+            "Name": "DMARC Record Published",
+            "Info": "No DMARC Record found",
+            "Url": "https://mxtoolbox.com/Problem/mx/DMARC-Record-Published?page=prob_mx&showlogin=1&hidetoc=1&action=mx:planspiegel.com",
+            "PublicDescription": null,
+            "IsExcludedByUser": false
+          }
+        ],
+        "Warnings": [
+          {
+            "ID": 197,
+            "Name": "DMARC Policy Not Enabled",
+            "Info": "DMARC Quarantine/Reject policy not enabled",
+            "Url": "https://mxtoolbox.com/Problem/mx/DMARC-Policy-Not-Enabled?page=prob_mx&showlogin=1&hidetoc=1&action=mx:planspiegel.com",
+            "PublicDescription": null,
+            "IsExcludedByUser": false
+          }
+        ],
+        "Passed": [
+          {
+            "ID": 506,
+            "Name": "DNS Record Published",
+            "Info": "DNS Record found",
+            "Url": "https://mxtoolbox.com/Problem/mx/DNS-Record-Published?page=prob_mx&showlogin=1&hidetoc=1&action=mx:planspiegel.com",
+            "PublicDescription": null,
+            "IsExcludedByUser": false
+          }
+        ],
+        "Timeouts": [],
+        "Errors": [],
+        "IsError": false,
+        "Information": [
+          {
+            "Pref": "10",
+            "Hostname": "mail.planspiegel.com",
+            "IP Address": "{No A Record}",
+            "TTL": "5 min",
+            "Asn": null,
+            "IsIpV6": null
+          }
+        ],
+        "MultiInformation": [],
+        "Transcript": [
+          {
+            "Transcript": "- - - mx:planspiegel.com\r\n\r\n&emsp; 1 l.gtld-servers.net 192.41.162.30 NON-AUTH 21 ms Received 2 Referrals , rcode=NO_ERROR &emsp; planspiegel.com.\t172800\tIN\tNS\tcoco.ns.cloudflare.com,planspiegel.com.\t172800\tIN\tNS\tmiles.ns.cloudflare.com,\r\n&emsp; 2 miles.ns.cloudflare.com 108.162.193.207 AUTH 10 ms Received 1 Answers , rcode=NO_ERROR &emsp; planspiegel.com.\t300\tIN\tMX\t10 mail.planspiegel.com,\r\nLookupServer 131ms\r\n"
+          }
+        ],
+        "MxRep": 0,
+        "EmailServiceProvider": null,
+        "DnsServiceProvider": null,
+        "DnsServiceProviderIdentifier": null,
+        "RelatedLookups": [
+          {
+            "Name": "dns lookup",
+            "URL": "https://mxtoolbox.com/api/v1/lookup/a/planspiegel.com",
+            "Command": "a",
+            "CommandArgument": "planspiegel.com"
+          },
+          {
+            "Name": "dns check",
+            "URL": "https://mxtoolbox.com/api/v1/lookup/dns/planspiegel.com",
+            "Command": "dns",
+            "CommandArgument": "planspiegel.com"
+          },
+          {
+            "Name": "spf lookup",
+            "URL": "https://mxtoolbox.com/api/v1/lookup/spf/planspiegel.com",
+            "Command": "spf",
+            "CommandArgument": "planspiegel.com"
+          },
+          {
+            "Name": "dns propagation",
+            "URL": "https://mxtoolbox.com/api/v1/lookup/mx/planspiegel.com:all",
+            "Command": "mx",
+            "CommandArgument": "planspiegel.com:all"
+          }
+        ]
+      }
+    },
+    "a": {
+      "command": "a",
+      "status": "success",
+      "data": {
+        "UID": null,
+        "ArgumentType": "domain",
+        "Command": "a",
+        "IsTransitioned": false,
+        "CommandArgument": "planspiegel.com",
+        "TimeRecorded": "2025-02-01T18:37:44.8139938-06:00",
+        "ReportingNameServer": "miles.ns.cloudflare.com",
+        "TimeToComplete": "39",
+        "RelatedIP": null,
+        "ResourceRecordType": 1,
+        "IsEmptySubDomain": false,
+        "IsEndpoint": false,
+        "HasSubscriptions": false,
+        "AlertgroupSubscriptionId": null,
+        "Failed": [],
+        "Warnings": [],
+        "Passed": [
+          {
+            "ID": 506,
+            "Name": "DNS Record Published",
+            "Info": "DNS Record found",
+            "Url": "https://mxtoolbox.com/Problem/a/DNS-Record-Published?page=prob_a&showlogin=1&hidetoc=1&action=a:planspiegel.com",
+            "PublicDescription": null,
+            "IsExcludedByUser": false
+          }
+        ],
+        "Timeouts": [],
+        "Errors": [],
+        "IsError": false,
+        "Information": [
+          {
+            "Type": "A",
+            "Domain Name": "planspiegel.com",
+            "IP Address": "172.67.173.6",
+            "TTL": "5 min",
+            "Asn": "[{\"asname\":\"Cloudflare, Inc.\", \"asn\":\"13335\"}]",
+            "IsIpV6": "False"
+          },
+          {
+            "Type": "A",
+            "Domain Name": "planspiegel.com",
+            "IP Address": "104.21.88.48",
+            "TTL": "5 min",
+            "Asn": "[{\"asname\":\"Cloudflare, Inc.\", \"asn\":\"13335\"}]",
+            "IsIpV6": "False"
+          }
+        ],
+        "MultiInformation": [],
+        "Transcript": [
+          {
+            "Transcript": "- - - a:planspiegel.com\r\n\r\n&emsp; 1 k.gtld-servers.net 192.52.178.30 NON-AUTH 21 ms Received 2 Referrals , rcode=NO_ERROR &emsp; planspiegel.com.\t172800\tIN\tNS\tcoco.ns.cloudflare.com,planspiegel.com.\t172800\tIN\tNS\tmiles.ns.cloudflare.com,\r\n&emsp; 2 miles.ns.cloudflare.com 108.162.193.207 AUTH 18 ms Received 2 Answers , rcode=NO_ERROR &emsp; planspiegel.com.\t300\tIN\tA\t172.67.173.6,planspiegel.com.\t300\tIN\tA\t104.21.88.48,\r\nLookupServer 39ms\r\n"
+          }
+        ],
+        "MxRep": 0,
+        "EmailServiceProvider": null,
+        "DnsServiceProvider": "Cloudflare",
+        "DnsServiceProviderIdentifier": "cloudflare.com",
+        "RelatedLookups": [
+          {
+            "Name": "dns check",
+            "URL": "https://mxtoolbox.com/api/v1/lookup/dns/planspiegel.com",
+            "Command": "dns",
+            "CommandArgument": "planspiegel.com"
+          },
+          {
+            "Name": "mx lookup",
+            "URL": "https://mxtoolbox.com/api/v1/lookup/mx/planspiegel.com",
+            "Command": "mx",
+            "CommandArgument": "planspiegel.com"
+          },
+          {
+            "Name": "spf lookup",
+            "URL": "https://mxtoolbox.com/api/v1/lookup/spf/planspiegel.com",
+            "Command": "spf",
+            "CommandArgument": "planspiegel.com"
+          },
+          {
+            "Name": "dns propagation",
+            "URL": "https://mxtoolbox.com/api/v1/lookup/a/planspiegel.com:all",
+            "Command": "a",
+            "CommandArgument": "planspiegel.com:all"
+          }
+        ]
+      }
+    },
+    "spf": {
+      "command": "spf",
+      "status": "success",
+      "data": {
+        "UID": null,
+        "ArgumentType": "domain",
+        "Command": "spf",
+        "IsTransitioned": false,
+        "CommandArgument": "planspiegel.com",
+        "TimeRecorded": "2025-02-01T18:37:44.8313133-06:00",
+        "ReportingNameServer": "coco.ns.cloudflare.com",
+        "TimeToComplete": "104",
+        "RelatedIP": null,
+        "ResourceRecordType": 0,
+        "IsEmptySubDomain": false,
+        "IsEndpoint": false,
+        "HasSubscriptions": false,
+        "AlertgroupSubscriptionId": null,
+        "Failed": [
+          {
+            "ID": 361,
+            "Name": "SPF Record Published",
+            "Info": "No SPF Record found",
+            "Url": "https://mxtoolbox.com/Problem/spf/SPF-Record-Published?page=prob_spf&showlogin=1&hidetoc=1&action=spf:planspiegel.com",
+            "PublicDescription": null,
+            "IsExcludedByUser": false
+          }
+        ],
+        "Warnings": [],
+        "Passed": [],
+        "Timeouts": [],
+        "Errors": [],
+        "IsError": false,
+        "Information": [],
+        "MultiInformation": [],
+        "Transcript": [
+          {
+            "Transcript": "- - - txt:planspiegel.com\r\n\r\n&emsp; 1 i.gtld-servers.net 192.43.172.30 NON-AUTH 62 ms Received 2 Referrals , rcode=NO_ERROR &emsp; planspiegel.com.\t172800\tIN\tNS\tcoco.ns.cloudflare.com,planspiegel.com.\t172800\tIN\tNS\tmiles.ns.cloudflare.com,\r\n&emsp; 2 coco.ns.cloudflare.com 108.162.192.104 AUTH 10 ms Received 1 Referrals , rcode=NO_ERROR &emsp; planspiegel.com.\t1800\tIN\tSOA\t mname=coco.ns.cloudflare.com rname=dns.cloudflare.com serial=2363785143,\r\nLookupServer 104ms\r\n"
+          }
+        ],
+        "MxRep": 0,
+        "EmailServiceProvider": null,
+        "DnsServiceProvider": "Cloudflare",
+        "DnsServiceProviderIdentifier": "cloudflare.com",
+        "RelatedLookups": [
+          {
+            "Name": "dns lookup",
+            "URL": "https://mxtoolbox.com/api/v1/lookup/a/planspiegel.com",
+            "Command": "a",
+            "CommandArgument": "planspiegel.com"
+          },
+          {
+            "Name": "dns check",
+            "URL": "https://mxtoolbox.com/api/v1/lookup/dns/planspiegel.com",
+            "Command": "dns",
+            "CommandArgument": "planspiegel.com"
+          },
+          {
+            "Name": "mx lookup",
+            "URL": "https://mxtoolbox.com/api/v1/lookup/mx/planspiegel.com",
+            "Command": "mx",
+            "CommandArgument": "planspiegel.com"
+          },
+          {
+            "Name": "dns propagation",
+            "URL": "https://mxtoolbox.com/api/v1/lookup/spf/planspiegel.com:all",
+            "Command": "spf",
+            "CommandArgument": "planspiegel.com:all"
+          }
+        ]
+      }
+    },
+    "txt": {
+      "command": "txt",
+      "status": "success",
+      "data": {
+        "UID": null,
+        "ArgumentType": "domain",
+        "Command": "txt",
+        "IsTransitioned": false,
+        "CommandArgument": "planspiegel.com",
+        "TimeRecorded": "2025-02-01T18:37:44.8171176-06:00",
+        "ReportingNameServer": "coco.ns.cloudflare.com",
+        "TimeToComplete": "44",
+        "RelatedIP": null,
+        "ResourceRecordType": 0,
+        "IsEmptySubDomain": false,
+        "IsEndpoint": false,
+        "HasSubscriptions": false,
+        "AlertgroupSubscriptionId": null,
+        "Failed": [
+          {
+            "ID": 506,
+            "Name": "DNS Record Published",
+            "Info": "DNS Record not found",
+            "Url": "https://mxtoolbox.com/Problem/txt/DNS-Record-Published?page=prob_txt&showlogin=1&hidetoc=1&action=txt:planspiegel.com",
+            "PublicDescription": null,
+            "IsExcludedByUser": false
+          }
+        ],
+        "Warnings": [],
+        "Passed": [],
+        "Timeouts": [],
+        "Errors": [],
+        "IsError": false,
+        "Information": [],
+        "MultiInformation": [],
+        "Transcript": [
+          {
+            "Transcript": "- - - txt:planspiegel.com\r\n\r\n&emsp; 1 m.gtld-servers.net 192.55.83.30 NON-AUTH 33 ms Received 2 Referrals , rcode=NO_ERROR &emsp; planspiegel.com.\t172800\tIN\tNS\tcoco.ns.cloudflare.com,planspiegel.com.\t172800\tIN\tNS\tmiles.ns.cloudflare.com,\r\n&emsp; 2 coco.ns.cloudflare.com 108.162.192.104 AUTH 10 ms Received 1 Referrals , rcode=NO_ERROR &emsp; planspiegel.com.\t1800\tIN\tSOA\t mname=coco.ns.cloudflare.com rname=dns.cloudflare.com serial=2363785143,\r\nLookupServer 44ms\r\n"
+          }
+        ],
+        "MxRep": 0,
+        "EmailServiceProvider": null,
+        "DnsServiceProvider": "Cloudflare",
+        "DnsServiceProviderIdentifier": "cloudflare.com",
+        "RelatedLookups": [
+          {
+            "Name": "dns lookup",
+            "URL": "https://mxtoolbox.com/api/v1/lookup/a/planspiegel.com",
+            "Command": "a",
+            "CommandArgument": "planspiegel.com"
+          },
+          {
+            "Name": "dns check",
+            "URL": "https://mxtoolbox.com/api/v1/lookup/dns/planspiegel.com",
+            "Command": "dns",
+            "CommandArgument": "planspiegel.com"
+          },
+          {
+            "Name": "mx lookup",
+            "URL": "https://mxtoolbox.com/api/v1/lookup/mx/planspiegel.com",
+            "Command": "mx",
+            "CommandArgument": "planspiegel.com"
+          },
+          {
+            "Name": "spf lookup",
+            "URL": "https://mxtoolbox.com/api/v1/lookup/spf/planspiegel.com",
+            "Command": "spf",
+            "CommandArgument": "planspiegel.com"
+          },
+          {
+            "Name": "dns propagation",
+            "URL": "https://mxtoolbox.com/api/v1/lookup/txt/planspiegel.com:all",
+            "Command": "txt",
+            "CommandArgument": "planspiegel.com:all"
+          }
+        ]
+      }
+    },
+    "ptr": {
+      "command": "ptr",
+      "status": "error",
+      "error": "Client error '400 Bad Request' for url 'https://api.mxtoolbox.com/api/v1/lookup/ptr/?argument=planspiegel.com'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400"
+    },
+    "cname": {
+      "command": "cname",
+      "status": "success",
+      "data": {
+        "UID": null,
+        "ArgumentType": "domain",
+        "Command": "cname",
+        "IsTransitioned": false,
+        "CommandArgument": "planspiegel.com",
+        "TimeRecorded": "2025-02-01T18:37:44.8193612-06:00",
+        "ReportingNameServer": "coco.ns.cloudflare.com",
+        "TimeToComplete": "64",
+        "RelatedIP": null,
+        "ResourceRecordType": 0,
+        "IsEmptySubDomain": false,
+        "IsEndpoint": false,
+        "HasSubscriptions": false,
+        "AlertgroupSubscriptionId": null,
+        "Failed": [
+          {
+            "ID": 506,
+            "Name": "DNS Record Published",
+            "Info": "DNS Record not found",
+            "Url": "https://mxtoolbox.com/Problem/cname/DNS-Record-Published?page=prob_cname&showlogin=1&hidetoc=1&action=cname:planspiegel.com",
+            "PublicDescription": null,
+            "IsExcludedByUser": false
+          }
+        ],
+        "Warnings": [],
+        "Passed": [],
+        "Timeouts": [],
+        "Errors": [],
+        "IsError": false,
+        "Information": [],
+        "MultiInformation": [],
+        "Transcript": [
+          {
+            "Transcript": "- - - cname:planspiegel.com\r\n\r\n&emsp; 1 h.gtld-servers.net 192.54.112.30 NON-AUTH 64 ms Received 2 Referrals , rcode=NO_ERROR &emsp; planspiegel.com.\t172800\tIN\tNS\tcoco.ns.cloudflare.com,planspiegel.com.\t172800\tIN\tNS\tmiles.ns.cloudflare.com,\r\n&emsp; 2 coco.ns.cloudflare.com 108.162.192.104 AUTH 0 ms Received 1 Referrals , rcode=NO_ERROR &emsp; planspiegel.com.\t1800\tIN\tSOA\t mname=coco.ns.cloudflare.com rname=dns.cloudflare.com serial=2363785143,\r\nLookupServer 64ms\r\n"
+          }
+        ],
+        "MxRep": 0,
+        "EmailServiceProvider": null,
+        "DnsServiceProvider": "Cloudflare",
+        "DnsServiceProviderIdentifier": "cloudflare.com",
+        "RelatedLookups": [
+          {
+            "Name": "dns lookup",
+            "URL": "https://mxtoolbox.com/api/v1/lookup/a/planspiegel.com",
+            "Command": "a",
+            "CommandArgument": "planspiegel.com"
+          },
+          {
+            "Name": "dns check",
+            "URL": "https://mxtoolbox.com/api/v1/lookup/dns/planspiegel.com",
+            "Command": "dns",
+            "CommandArgument": "planspiegel.com"
+          },
+          {
+            "Name": "mx lookup",
+            "URL": "https://mxtoolbox.com/api/v1/lookup/mx/planspiegel.com",
+            "Command": "mx",
+            "CommandArgument": "planspiegel.com"
+          },
+          {
+            "Name": "spf lookup",
+            "URL": "https://mxtoolbox.com/api/v1/lookup/spf/planspiegel.com",
+            "Command": "spf",
+            "CommandArgument": "planspiegel.com"
+          },
+          {
+            "Name": "dns propagation",
+            "URL": "https://mxtoolbox.com/api/v1/lookup/cname/planspiegel.com:all",
+            "Command": "cname",
+            "CommandArgument": "planspiegel.com:all"
+          }
+        ]
+      }
+    },
+    "whois": {
+      "command": "whois",
+      "status": "error",
+      "error": "Client error '400 Bad Request' for url 'https://api.mxtoolbox.com/api/v1/lookup/whois/?argument=planspiegel.com'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400"
+    },
+    "arin": {
+      "command": "arin",
+      "status": "error",
+      "error": "Client error '400 Bad Request' for url 'https://api.mxtoolbox.com/api/v1/lookup/arin/?argument=planspiegel.com'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400"
+    },
+    "soa": {
+      "command": "soa",
+      "status": "success",
+      "data": {
+        "UID": null,
+        "ArgumentType": "domain",
+        "Command": "soa",
+        "IsTransitioned": false,
+        "CommandArgument": "planspiegel.com",
+        "TimeRecorded": "2025-02-01T18:37:44.8139938-06:00",
+        "ReportingNameServer": "miles.ns.cloudflare.com",
+        "TimeToComplete": "39",
+        "RelatedIP": null,
+        "ResourceRecordType": 6,
+        "IsEmptySubDomain": false,
+        "IsEndpoint": false,
+        "HasSubscriptions": false,
+        "AlertgroupSubscriptionId": null,
+        "Failed": [],
+        "Warnings": [],
+        "Passed": [
+          {
+            "ID": 506,
+            "Name": "DNS Record Published",
+            "Info": "DNS Record found",
+            "Url": "https://mxtoolbox.com/Problem/soa/DNS-Record-Published?page=prob_soa&showlogin=1&hidetoc=1&action=soa:planspiegel.com",
+            "PublicDescription": null,
+            "IsExcludedByUser": false
+          }
+        ],
+        "Timeouts": [],
+        "Errors": [],
+        "IsError": false,
+        "Information": [
+          {
+            "Type": "SOA",
+            "Domain Name": "planspiegel.com",
+            "Primary NS": "coco.ns.cloudflare.com",
+            "Responsible Email": "dns@cloudflare.com",
+            "TTL": "30 min"
+          }
+        ],
+        "MultiInformation": [],
+        "Transcript": [
+          {
+            "Transcript": "- - - soa:planspiegel.com\r\n\r\n&emsp; 1 k.gtld-servers.net 192.52.178.30 NON-AUTH 39 ms Received 2 Referrals , rcode=NO_ERROR &emsp; planspiegel.com.\t172800\tIN\tNS\tcoco.ns.cloudflare.com,planspiegel.com.\t172800\tIN\tNS\tmiles.ns.cloudflare.com,\r\n&emsp; 2 miles.ns.cloudflare.com 108.162.193.207 AUTH 0 ms Received 1 Answers , rcode=NO_ERROR &emsp; planspiegel.com.\t1800\tIN\tSOA\t mname=coco.ns.cloudflare.com rname=dns.cloudflare.com serial=2363785143,\r\nLookupServer 39ms\r\n"
+          }
+        ],
+        "MxRep": 0,
+        "EmailServiceProvider": null,
+        "DnsServiceProvider": "Cloudflare",
+        "DnsServiceProviderIdentifier": "cloudflare.com",
+        "RelatedLookups": [
+          {
+            "Name": "dns lookup",
+            "URL": "https://mxtoolbox.com/api/v1/lookup/a/planspiegel.com",
+            "Command": "a",
+            "CommandArgument": "planspiegel.com"
+          },
+          {
+            "Name": "dns check",
+            "URL": "https://mxtoolbox.com/api/v1/lookup/dns/planspiegel.com",
+            "Command": "dns",
+            "CommandArgument": "planspiegel.com"
+          },
+          {
+            "Name": "mx lookup",
+            "URL": "https://mxtoolbox.com/api/v1/lookup/mx/planspiegel.com",
+            "Command": "mx",
+            "CommandArgument": "planspiegel.com"
+          },
+          {
+            "Name": "spf lookup",
+            "URL": "https://mxtoolbox.com/api/v1/lookup/spf/planspiegel.com",
+            "Command": "spf",
+            "CommandArgument": "planspiegel.com"
+          }
+        ]
+      }
+    },
+    "tcp": {
+      "command": "tcp",
+      "status": "error",
+      "error": "Client error '400 Bad Request' for url 'https://api.mxtoolbox.com/api/v1/lookup/tcp/?argument=planspiegel.com'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400"
+    },
+    "https": {
+      "command": "https",
+      "status": "success",
+      "data": {
+        "UID": null,
+        "ArgumentType": "domain",
+        "Command": "https",
+        "IsTransitioned": false,
+        "CommandArgument": "planspiegel.com",
+        "TimeRecorded": "2025-02-01T18:37:44.8234717-06:00",
+        "ReportingNameServer": null,
+        "TimeToComplete": "720",
+        "RelatedIP": null,
+        "ResourceRecordType": 0,
+        "IsEmptySubDomain": false,
+        "IsEndpoint": false,
+        "HasSubscriptions": false,
+        "AlertgroupSubscriptionId": null,
+        "Failed": [],
+        "Warnings": [],
+        "Passed": [
+          {
+            "ID": 214,
+            "Name": "HTTP Connect",
+            "Info": "200 OK",
+            "Url": "https://mxtoolbox.com/Problem/https/HTTP-Connect?page=prob_https&showlogin=1&hidetoc=1&action=https:planspiegel.com",
+            "PublicDescription": null,
+            "IsExcludedByUser": false
+          },
+          {
+            "ID": 216,
+            "Name": "HTTP Filter",
+            "Info": "",
+            "Url": "https://mxtoolbox.com/Problem/https/HTTP-Filter?page=prob_https&showlogin=1&hidetoc=1&action=https:planspiegel.com",
+            "PublicDescription": null,
+            "IsExcludedByUser": false
+          },
+          {
+            "ID": 217,
+            "Name": "HTTP Delay Check",
+            "Info": "Success - response in 374 ms",
+            "Url": "https://mxtoolbox.com/Problem/https/HTTP-Delay-Check?page=prob_https&showlogin=1&hidetoc=1&action=https:planspiegel.com",
+            "PublicDescription": null,
+            "IsExcludedByUser": false
+          },
+          {
+            "ID": 331,
+            "Name": "HTTPS Certificate Check",
+            "Info": "",
+            "Url": "https://mxtoolbox.com/Problem/https/HTTPS-Certificate-Check?page=prob_https&showlogin=1&hidetoc=1&action=https:planspiegel.com",
+            "PublicDescription": null,
+            "IsExcludedByUser": false
+          },
+          {
+            "ID": 332,
+            "Name": "HTTPS Certificate Expiration",
+            "Info": "",
+            "Url": "https://mxtoolbox.com/Problem/https/HTTPS-Certificate-Expiration?page=prob_https&showlogin=1&hidetoc=1&action=https:planspiegel.com",
+            "PublicDescription": null,
+            "IsExcludedByUser": false
+          }
+        ],
+        "Timeouts": [],
+        "Errors": [],
+        "IsError": false,
+        "Information": [
+          {
+            "Icon": "[locked]",
+            "Status": "",
+            "Name": "planspiegel.com",
+            "Serial": "6A6E0B8A75CFF52C1335775CCD0878C7",
+            "Algorithm": "sha256ECDSA",
+            "Valid From": "1/30/2025",
+            "Valid To": "4/30/2025",
+            "Expires": "3 months",
+            "Subject": "CN=planspiegel.com",
+            "SubjectData": "",
+            "Primary": "True",
+            "Issuer": "WE1"
+          },
+          {
+            "Icon": "[locked]",
+            "Status": "",
+            "Name": "WE1",
+            "Serial": "7FF31977972C224A76155D13B6D685E3",
+            "Algorithm": "sha384ECDSA",
+            "Valid From": "12/13/2023",
+            "Valid To": "2/20/2029",
+            "Expires": "4 years",
+            "Subject": "CN=WE1, O=Google Trust Services, C=US",
+            "SubjectData": "Organization=Google Trust Services|Location=US",
+            "Primary": "False",
+            "Issuer": "GTS Root R4"
+          },
+          {
+            "Icon": "[locked]",
+            "Status": "",
+            "Name": "GTS Root R4",
+            "Serial": "7FE530BF331343BEDD821610493D8A1B",
+            "Algorithm": "sha256RSA",
+            "Valid From": "11/14/2023",
+            "Valid To": "1/27/2028",
+            "Expires": "3 years",
+            "Subject": "CN=GTS Root R4, O=Google Trust Services LLC, C=US",
+            "SubjectData": "Organization=Google Trust Services LLC|Location=US",
+            "Primary": "False",
+            "Issuer": "GlobalSign Root CA"
+          },
+          {
+            "Icon": "[locked]",
+            "Status": "",
+            "Name": "GlobalSign Root CA",
+            "Serial": "040000000001154B5AC394",
+            "Algorithm": "sha1RSA",
+            "Valid From": "9/1/1998",
+            "Valid To": "1/28/2028",
+            "Expires": "3 years",
+            "Subject": "CN=GlobalSign Root CA, OU=Root CA, O=GlobalSign nv-sa, C=BE",
+            "SubjectData": "Organization=GlobalSign nv-sa|Location=BE",
+            "Primary": "False",
+            "Issuer": "GlobalSign Root CA"
+          }
+        ],
+        "MultiInformation": [],
+        "Transcript": [
+          {
+            "Transcript": "Connecting to https://planspiegel.com\r\nResponse time '0.3738933'\r\nLookupServer 720ms\r\n"
+          }
+        ],
+        "MxRep": 0,
+        "EmailServiceProvider": null,
+        "DnsServiceProvider": null,
+        "DnsServiceProviderIdentifier": null,
+        "RelatedLookups": [
+          {
+            "Name": "dns lookup",
+            "URL": "https://mxtoolbox.com/api/v1/lookup/a/planspiegel.com",
+            "Command": "a",
+            "CommandArgument": "planspiegel.com"
+          },
+          {
+            "Name": "dns check",
+            "URL": "https://mxtoolbox.com/api/v1/lookup/dns/planspiegel.com",
+            "Command": "dns",
+            "CommandArgument": "planspiegel.com"
+          },
+          {
+            "Name": "mx lookup",
+            "URL": "https://mxtoolbox.com/api/v1/lookup/mx/planspiegel.com",
+            "Command": "mx",
+            "CommandArgument": "planspiegel.com"
+          },
+          {
+            "Name": "spf lookup",
+            "URL": "https://mxtoolbox.com/api/v1/lookup/spf/planspiegel.com",
+            "Command": "spf",
+            "CommandArgument": "planspiegel.com"
+          }
+        ]
+      }
+    },
+    "ping": {
+      "command": "ping",
+      "status": "success",
+      "data": {
+        "UID": null,
+        "ArgumentType": "domain",
+        "Command": "ping",
+        "IsTransitioned": false,
+        "CommandArgument": "planspiegel.com",
+        "TimeRecorded": "2025-02-01T18:37:49.9041982-06:00",
+        "ReportingNameServer": null,
+        "TimeToComplete": "0",
+        "RelatedIP": "104.21.88.48",
+        "ResourceRecordType": 0,
+        "IsEmptySubDomain": false,
+        "IsEndpoint": false,
+        "HasSubscriptions": false,
+        "AlertgroupSubscriptionId": null,
+        "Failed": [],
+        "Warnings": [],
+        "Passed": [],
+        "Timeouts": [],
+        "Errors": [],
+        "IsError": false,
+        "Information": [
+          {
+            "Reply": "Success",
+            "IP Address": "104.21.88.48",
+            "Bytes": "33",
+            "Time": "&lt;2",
+            "TTL": "56",
+            "Asn": "[{\"asname\":\"Cloudflare, Inc.\", \"asn\":\"13335\"}]",
+            "IsIpV6": "False"
+          },
+          {
+            "Reply": "Success",
+            "IP Address": "104.21.88.48",
+            "Bytes": "33",
+            "Time": "&lt;1",
+            "TTL": "56",
+            "Asn": "[{\"asname\":\"Cloudflare, Inc.\", \"asn\":\"13335\"}]",
+            "IsIpV6": "False"
+          },
+          {
+            "Reply": "Success",
+            "IP Address": "104.21.88.48",
+            "Bytes": "33",
+            "Time": "&lt;1",
+            "TTL": "56",
+            "Asn": "[{\"asname\":\"Cloudflare, Inc.\", \"asn\":\"13335\"}]",
+            "IsIpV6": "False"
+          },
+          {
+            "Reply": "Success",
+            "IP Address": "104.21.88.48",
+            "Bytes": "33",
+            "Time": "&lt;1",
+            "TTL": "56",
+            "Asn": "[{\"asname\":\"Cloudflare, Inc.\", \"asn\":\"13335\"}]",
+            "IsIpV6": "False"
+          }
+        ],
+        "MultiInformation": [],
+        "Transcript": [
+          {
+            "Transcript": "Resolved IP - 104.21.88.48\r\nLookupServer 0ms\r\n"
+          }
+        ],
+        "MxRep": 0,
+        "EmailServiceProvider": null,
+        "DnsServiceProvider": null,
+        "DnsServiceProviderIdentifier": null,
+        "RelatedLookups": [
+          {
+            "Name": "dns lookup",
+            "URL": "https://mxtoolbox.com/api/v1/lookup/a/planspiegel.com",
+            "Command": "a",
+            "CommandArgument": "planspiegel.com"
+          },
+          {
+            "Name": "dns check",
+            "URL": "https://mxtoolbox.com/api/v1/lookup/dns/planspiegel.com",
+            "Command": "dns",
+            "CommandArgument": "planspiegel.com"
+          },
+          {
+            "Name": "mx lookup",
+            "URL": "https://mxtoolbox.com/api/v1/lookup/mx/planspiegel.com",
+            "Command": "mx",
+            "CommandArgument": "planspiegel.com"
+          },
+          {
+            "Name": "spf lookup",
+            "URL": "https://mxtoolbox.com/api/v1/lookup/spf/planspiegel.com",
+            "Command": "spf",
+            "CommandArgument": "planspiegel.com"
+          }
+        ]
+      }
+    },
+    "trace": {
+      "command": "trace",
+      "status": "success",
+      "data": {
+        "UID": null,
+        "ArgumentType": "domain",
+        "Command": "trace",
+        "IsTransitioned": false,
+        "CommandArgument": "planspiegel.com",
+        "TimeRecorded": "2025-02-01T18:38:16.1938407-06:00",
+        "ReportingNameServer": null,
+        "TimeToComplete": "0",
+        "RelatedIP": "104.21.88.48",
+        "ResourceRecordType": 0,
+        "IsEmptySubDomain": false,
+        "IsEndpoint": false,
+        "HasSubscriptions": false,
+        "AlertgroupSubscriptionId": null,
+        "Failed": [],
+        "Warnings": [],
+        "Passed": [],
+        "Timeouts": [],
+        "Errors": [],
+        "IsError": false,
+        "Information": [
+          {
+            "HopCount": "1",
+            "IP Address": "10.140.10.147",
+            "HostName": "* * *",
+            "Asn": "[]",
+            "IsIpV6": "False"
+          },
+          {
+            "HopCount": "2",
+            "IP Address": "* * *",
+            "HostName": "* * *",
+            "Asn": null,
+            "IsIpV6": null
+          },
+          {
+            "HopCount": "3",
+            "IP Address": "* * *",
+            "HostName": "* * *",
+            "Asn": null,
+            "IsIpV6": null
+          },
+          {
+            "HopCount": "4",
+            "IP Address": "* * *",
+            "HostName": "* * *",
+            "Asn": null,
+            "IsIpV6": null
+          },
+          {
+            "HopCount": "5",
+            "IP Address": "100.100.4.78",
+            "HostName": "* * *",
+            "Asn": "[]",
+            "IsIpV6": "False"
+          },
+          {
+            "HopCount": "6",
+            "IP Address": "52.95.216.151",
+            "HostName": "* * *",
+            "Asn": "[{\"asname\":\"Amazon.com, Inc.\", \"asn\":\"16509\"}]",
+            "IsIpV6": "False"
+          },
+          {
+            "HopCount": "7",
+            "IP Address": "173.245.63.111",
+            "HostName": "* * *",
+            "Asn": "[{\"asname\":\"Cloudflare, Inc.\", \"asn\":\"13335\"}]",
+            "IsIpV6": "False"
+          },
+          {
+            "HopCount": "8",
+            "IP Address": "104.21.88.48",
+            "HostName": "* * *",
+            "Asn": "[{\"asname\":\"Cloudflare, Inc.\", \"asn\":\"13335\"}]",
+            "IsIpV6": "False"
+          }
+        ],
+        "MultiInformation": [],
+        "Transcript": [
+          {
+            "Transcript": "Resolved IP - 104.21.88.48\r\nLookupServer 0ms\r\n"
+          }
+        ],
+        "MxRep": 0,
+        "EmailServiceProvider": null,
+        "DnsServiceProvider": null,
+        "DnsServiceProviderIdentifier": null,
+        "RelatedLookups": [
+          {
+            "Name": "dns lookup",
+            "URL": "https://mxtoolbox.com/api/v1/lookup/a/planspiegel.com",
+            "Command": "a",
+            "CommandArgument": "planspiegel.com"
+          },
+          {
+            "Name": "dns check",
+            "URL": "https://mxtoolbox.com/api/v1/lookup/dns/planspiegel.com",
+            "Command": "dns",
+            "CommandArgument": "planspiegel.com"
+          },
+          {
+            "Name": "mx lookup",
+            "URL": "https://mxtoolbox.com/api/v1/lookup/mx/planspiegel.com",
+            "Command": "mx",
+            "CommandArgument": "planspiegel.com"
+          },
+          {
+            "Name": "spf lookup",
+            "URL": "https://mxtoolbox.com/api/v1/lookup/spf/planspiegel.com",
+            "Command": "spf",
+            "CommandArgument": "planspiegel.com"
+          }
+        ]
+      }
+    },
+    "dns": {
+      "command": "dns",
+      "status": "success",
+      "data": {
+        "UID": null,
+        "ArgumentType": "domain",
+        "Command": "dns",
+        "IsTransitioned": false,
+        "CommandArgument": "planspiegel.com",
+        "TimeRecorded": "2025-02-01T18:37:44.8202282-06:00",
+        "ReportingNameServer": "miles.ns.cloudflare.com",
+        "TimeToComplete": "605",
+        "RelatedIP": null,
+        "ResourceRecordType": 2,
+        "IsEmptySubDomain": false,
+        "IsEndpoint": false,
+        "HasSubscriptions": false,
+        "AlertgroupSubscriptionId": null,
+        "Failed": [],
+        "Warnings": [
+          {
+            "ID": 315,
+            "Name": "DNS SOA Serial Number Format",
+            "Info": "SOA Serial Number Format is Invalid",
+            "Url": "https://mxtoolbox.com/Problem/dns/DNS-SOA-Serial-Number-Format?page=prob_dns&showlogin=1&hidetoc=1&action=dns:planspiegel.com",
+            "PublicDescription": null,
+            "AdditionalInfo": [
+              "coco.ns.cloudflare.com reported Serial 2363785143 : Serial year was 2363 which is in the future."
+            ],
+            "IsExcludedByUser": false
+          },
+          {
+            "ID": 318,
+            "Name": "DNS SOA Expire Value",
+            "Info": "SOA Expire Value out of recommended range",
+            "Url": "https://mxtoolbox.com/Problem/dns/DNS-SOA-Expire-Value?page=prob_dns&showlogin=1&hidetoc=1&action=dns:planspiegel.com",
+            "PublicDescription": null,
+            "AdditionalInfo": [
+              "coco.ns.cloudflare.com reported Expire 604800 : Expire is recommended to be between 1209600 and 2419200."
+            ],
+            "IsExcludedByUser": false
+          }
+        ],
+        "Passed": [
+          {
+            "ID": 506,
+            "Name": "DNS Record Published",
+            "Info": "DNS Record found",
+            "Url": "https://mxtoolbox.com/Problem/dns/DNS-Record-Published?page=prob_dns&showlogin=1&hidetoc=1&action=dns:planspiegel.com",
+            "PublicDescription": null,
+            "IsExcludedByUser": false
+          },
+          {
+            "ID": 305,
+            "Name": "DNS Bad Glue Detected",
+            "Info": "No Bad Glue Detected",
+            "Url": "https://mxtoolbox.com/Problem/dns/DNS-Bad-Glue-Detected?page=prob_dns&showlogin=1&hidetoc=1&action=dns:planspiegel.com",
+            "PublicDescription": null,
+            "AdditionalInfo": [
+              ""
+            ],
+            "IsExcludedByUser": false
+          },
+          {
+            "ID": 306,
+            "Name": "DNS At Least Two Servers",
+            "Info": "At Least Two Name Servers Found",
+            "Url": "https://mxtoolbox.com/Problem/dns/DNS-At-Least-Two-Servers?page=prob_dns&showlogin=1&hidetoc=1&action=dns:planspiegel.com",
+            "PublicDescription": null,
+            "AdditionalInfo": [
+              ""
+            ],
+            "IsExcludedByUser": false
+          },
+          {
+            "ID": 301,
+            "Name": "DNS All Servers Responding",
+            "Info": "All name servers are responding",
+            "Url": "https://mxtoolbox.com/Problem/dns/DNS-All-Servers-Responding?page=prob_dns&showlogin=1&hidetoc=1&action=dns:planspiegel.com",
+            "PublicDescription": null,
+            "AdditionalInfo": [
+              ""
+            ],
+            "IsExcludedByUser": false
+          },
+          {
+            "ID": 303,
+            "Name": "DNS All Servers Authoritative",
+            "Info": "All of the name servers are Authoritative",
+            "Url": "https://mxtoolbox.com/Problem/dns/DNS-All-Servers-Authoritative?page=prob_dns&showlogin=1&hidetoc=1&action=dns:planspiegel.com",
+            "PublicDescription": null,
+            "AdditionalInfo": [
+              ""
+            ],
+            "IsExcludedByUser": false
+          },
+          {
+            "ID": 300,
+            "Name": "DNS Local Parent Mismatch",
+            "Info": "Local NS list matches Parent NS list",
+            "Url": "https://mxtoolbox.com/Problem/dns/DNS-Local-Parent-Mismatch?page=prob_dns&showlogin=1&hidetoc=1&action=dns:planspiegel.com",
+            "PublicDescription": null,
+            "AdditionalInfo": [
+              ""
+            ],
+            "IsExcludedByUser": false
+          },
+          {
+            "ID": 310,
+            "Name": "DNS Servers are on Different Subnets",
+            "Info": "Name Servers appear to be Dispersed",
+            "Url": "https://mxtoolbox.com/Problem/dns/DNS-Servers-are-on-Different-Subnets?page=prob_dns&showlogin=1&hidetoc=1&action=dns:planspiegel.com",
+            "PublicDescription": null,
+            "AdditionalInfo": [
+              ""
+            ],
+            "IsExcludedByUser": false
+          },
+          {
+            "ID": 312,
+            "Name": "DNS Servers Have Public IP Addresses",
+            "Info": "Name Servers have Public IP Addresses",
+            "Url": "https://mxtoolbox.com/Problem/dns/DNS-Servers-Have-Public-IP-Addresses?page=prob_dns&showlogin=1&hidetoc=1&action=dns:planspiegel.com",
+            "PublicDescription": null,
+            "AdditionalInfo": [
+              ""
+            ],
+            "IsExcludedByUser": false
+          },
+          {
+            "ID": 299,
+            "Name": "DNS SOA Serial Numbers Match",
+            "Info": "Serial numbers match",
+            "Url": "https://mxtoolbox.com/Problem/dns/DNS-SOA-Serial-Numbers-Match?page=prob_dns&showlogin=1&hidetoc=1&action=dns:planspiegel.com",
+            "PublicDescription": null,
+            "AdditionalInfo": [
+              "2363785143"
+            ],
+            "IsExcludedByUser": false
+          },
+          {
+            "ID": 314,
+            "Name": "DNS Primary Server Listed At Parent",
+            "Info": "Primary Name Server Listed At Parent",
+            "Url": "https://mxtoolbox.com/Problem/dns/DNS-Primary-Server-Listed-At-Parent?page=prob_dns&showlogin=1&hidetoc=1&action=dns:planspiegel.com",
+            "PublicDescription": null,
+            "AdditionalInfo": [
+              ""
+            ],
+            "IsExcludedByUser": false
+          },
+          {
+            "ID": 316,
+            "Name": "DNS SOA Refresh Value",
+            "Info": "SOA Refresh Value is within the recommended range",
+            "Url": "https://mxtoolbox.com/Problem/dns/DNS-SOA-Refresh-Value?page=prob_dns&showlogin=1&hidetoc=1&action=dns:planspiegel.com",
+            "PublicDescription": null,
+            "AdditionalInfo": [
+              ""
+            ],
+            "IsExcludedByUser": false
+          },
+          {
+            "ID": 317,
+            "Name": "DNS SOA Retry Value",
+            "Info": "SOA Retry Value is within the recommended range",
+            "Url": "https://mxtoolbox.com/Problem/dns/DNS-SOA-Retry-Value?page=prob_dns&showlogin=1&hidetoc=1&action=dns:planspiegel.com",
+            "PublicDescription": null,
+            "AdditionalInfo": [
+              ""
+            ],
+            "IsExcludedByUser": false
+          },
+          {
+            "ID": 319,
+            "Name": "DNS SOA NXDOMAIN Value",
+            "Info": "SOA Minimum TTL Value is within allowed values",
+            "Url": "https://mxtoolbox.com/Problem/dns/DNS-SOA-NXDOMAIN-Value?page=prob_dns&showlogin=1&hidetoc=1&action=dns:planspiegel.com",
+            "PublicDescription": null,
+            "AdditionalInfo": [
+              ""
+            ],
+            "IsExcludedByUser": false
+          },
+          {
+            "ID": 371,
+            "Name": "DNS Open Recursive Name Server",
+            "Info": "No Open Recursive Name Server Detected",
+            "Url": "https://mxtoolbox.com/Problem/dns/DNS-Open-Recursive-Name-Server?page=prob_dns&showlogin=1&hidetoc=1&action=dns:planspiegel.com",
+            "PublicDescription": null,
+            "AdditionalInfo": [
+              ""
+            ],
+            "IsExcludedByUser": false
+          }
+        ],
+        "Timeouts": [],
+        "Errors": [],
+        "IsError": false,
+        "Information": [
+          {
+            "Type": "NS",
+            "Domain Name": "coco.ns.cloudflare.com",
+            "IP Address": "108.162.192.104",
+            "TTL": "24 hrs",
+            "Status": "[GREEN]",
+            "Time (ms)": "10",
+            "Auth": "[GREEN]",
+            "Parent": "[GREEN]",
+            "Local": "[GREEN]",
+            "Asn": "[{\"asname\":\"Cloudflare, Inc.\", \"asn\":\"13335\"}]",
+            "IsIpV6": "False"
+          },
+          {
+            "Type": "NS",
+            "Domain Name": "miles.ns.cloudflare.com",
+            "IP Address": "108.162.193.207",
+            "TTL": "24 hrs",
+            "Status": "[GREEN]",
+            "Time (ms)": "10",
+            "Auth": "[GREEN]",
+            "Parent": "[GREEN]",
+            "Local": "[GREEN]",
+            "Asn": "[{\"asname\":\"Cloudflare, Inc.\", \"asn\":\"13335\"}]",
+            "IsIpV6": "False"
+          }
+        ],
+        "MultiInformation": [],
+        "Transcript": [
+          {
+            "TimeStamp": "\r\nLookupServer 605ms\r\n",
+            "Depth": "1",
+            "ServerName": "h.gtld-servers.net",
+            "ServerIP": "192.54.112.30",
+            "Authoritative": "NON-AUTH",
+            "ElapsedTime": "61 ms",
+            "Result": "Received 2 Referrals , rcode=NO_ERROR",
+            "Question": "",
+            "Answers": "planspiegel.com.\t172800\tIN\tNS\tcoco.ns.cloudflare.com,planspiegel.com.\t172800\tIN\tNS\tmiles.ns.cloudflare.com,"
+          },
+          {
+            "TimeStamp": "",
+            "Depth": "2",
+            "ServerName": "miles.ns.cloudflare.com",
+            "ServerIP": "108.162.193.207",
+            "Authoritative": "AUTH",
+            "ElapsedTime": "10 ms",
+            "Result": "Received 2 Answers , rcode=NO_ERROR",
+            "Question": "",
+            "Answers": "planspiegel.com.\t86400\tIN\tNS\tcoco.ns.cloudflare.com,planspiegel.com.\t86400\tIN\tNS\tmiles.ns.cloudflare.com,"
+          }
+        ],
+        "MxRep": 0,
+        "EmailServiceProvider": null,
+        "DnsServiceProvider": "Cloudflare",
+        "DnsServiceProviderIdentifier": "cloudflare.com",
+        "RelatedLookups": [
+          {
+            "Name": "dns lookup",
+            "URL": "https://mxtoolbox.com/api/v1/lookup/a/planspiegel.com",
+            "Command": "a",
+            "CommandArgument": "planspiegel.com"
+          },
+          {
+            "Name": "mx lookup",
+            "URL": "https://mxtoolbox.com/api/v1/lookup/mx/planspiegel.com",
+            "Command": "mx",
+            "CommandArgument": "planspiegel.com"
+          },
+          {
+            "Name": "spf lookup",
+            "URL": "https://mxtoolbox.com/api/v1/lookup/spf/planspiegel.com",
+            "Command": "spf",
+            "CommandArgument": "planspiegel.com"
+          },
+          {
+            "Name": "dns propagation",
+            "URL": "https://mxtoolbox.com/api/v1/lookup/dns/planspiegel.com:all",
+            "Command": "dns",
+            "CommandArgument": "planspiegel.com:all"
+          }
+        ]
+      }
+    }
+  }
+}

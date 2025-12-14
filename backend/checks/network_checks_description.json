@@ -1,0 +1,178 @@
+[
+  {
+    "name": "DMARC Record Published",
+    "description": "Having a DMARC record is essential for all websites to protect against email spoofing and phishing attacks. This improves email security and ensures that only authorized senders can use the domain."
+  },
+  {
+      "name": "Blacklist Analysis",
+      "description": "Regular checks against blacklists help websites maintain their reputation and email deliverability. Being clear of blacklists ensures trustworthiness and reduces potential communication issues."
+  },
+  {
+      "name": "DNS Record Published",
+      "description": "Properly configured DNS records indicate a well-maintained domain setup, which is critical for website functionality and secure communication."
+  },
+  {
+      "name": "TLS Support",
+      "description": "TLS encryption secures data transmission, protecting user information and ensuring compliance with modern security standards. All websites should implement TLS for enhanced trust and security."
+  },
+  {
+      "name": "PTR Records and Reverse DNS",
+      "description": "Correctly configured PTR records improve email deliverability and prevent emails from being flagged as spam. This is a good practice for maintaining domain credibility."
+  },
+  {
+      "name": "Regular Monitoring",
+      "description": "Continuous monitoring of DNS, SMTP, and other configurations ensures issues are detected and resolved promptly, keeping the website secure and operational."
+  },
+  {
+      "name": "Implement Quarantine/Reject DMARC Policies",
+      "description": "Enforcing strict DMARC policies prevents unauthorized email use, protecting users from phishing and domain spoofing."
+  },
+  {
+      "name": "Update and Maintain DNS Records",
+      "description": "Accurate and up-to-date DNS records, including SPF, DKIM, and DMARC, ensure secure and efficient communication."
+  },
+  {
+      "name": "Use Secure Connections",
+      "description": "HTTPS with TLS encryption protects data in transit, ensuring user privacy and website integrity."
+  },
+  {
+      "name": "Blacklist Resolution",
+      "description": "Resolving blacklist issues promptly maintains a website's reputation and ensures uninterrupted email delivery."
+  },
+  {
+      "name": "SMTP Connect Failures",
+      "description": "SMTP connection failures indicate potential network or configuration issues that can disrupt email communication. Investigate and resolve these problems promptly."
+  },
+  {
+      "name": "SMTP Reverse DNS Mismatch",
+      "description": "Reverse DNS mismatches reduce email credibility, potentially causing emails to be marked as spam. Ensure accurate PTR records to avoid this issue."
+  },
+  {
+      "name": "Blacklist Inclusion",
+      "description": "Being listed in blacklists can harm email deliverability and reputation. Investigate the cause and take corrective actions, such as resolving spam-related issues."
+  },
+  {
+      "name": "Open Relay Check",
+      "description": "Open email relays can be exploited by spammers, leading to domain blacklisting. Ensure relays are secured to prevent unauthorized use."
+  },
+  {
+      "name": "DMARC Policy Not Enabled",
+      "description": "A DMARC record without a quarantine or reject policy leaves a domain vulnerable to spoofing. Implement stricter policies to improve security."
+  },
+  {
+    "name": "Check Open Ports",
+    "description": "Scanning open ports helps identify entry points that attackers might exploit. Best tools include Nmap and Nessus. Ensure only necessary ports are open. Unused or misconfigured ports can be a security risk."
+  },
+  {
+    "name": "Analyze Firewall Configuration",
+    "description": "Evaluate the effectiveness of your firewall in filtering unauthorized access. Tools like Wireshark and Firewalld are useful. Misconfigured firewalls can expose the website to attacks."
+  },
+  {
+    "name": "Inspect DNS Records",
+    "description": "Ensure DNS records (A, MX, TXT, etc.) are secure and not leaking sensitive data. DNSDumpster and MXToolbox are reliable tools. Misconfigured records can lead to DNS spoofing or subdomain takeover."
+  },
+  {
+    "name": "Perform Network Vulnerability Scans",
+    "description": "Identify vulnerabilities in the network layer using tools like Nessus, OpenVAS, or Qualys. Outdated protocols or weak encryption can pose risks."
+  },
+  {
+    "name": "Check SSL/TLS Configuration",
+    "description": "Ensure SSL/TLS certificates are properly configured and up-to-date. Use tools like SSL Labs. Weak or expired certificates can expose sensitive data."
+  },
+  {
+    "name": "Monitor Network Traffic",
+    "description": "Analyze network traffic for unusual patterns using tools like Wireshark or Zeek. Excessive or anomalous traffic could indicate an attack."
+  },
+  {
+    "name": "Evaluate Intrusion Detection/Prevention Systems (IDS/IPS)",
+    "description": "Test IDS/IPS systems for their ability to detect and respond to threats. Tools like Snort or Suricata are valuable. Improperly tuned systems may generate false positives or miss threats."
+  },
+  {
+    "name": "Check for Secure Protocols",
+    "description": "Ensure secure protocols like HTTPS, SFTP, and SSH are used instead of insecure ones like HTTP, FTP, or Telnet. Tools like SSLyze can help evaluate protocol security."
+  },
+  {
+    "name": "Identify Weak Password Policies",
+    "description": "Assess password policies for strength, such as complexity and expiration requirements. Weak password policies increase the risk of brute force attacks."
+  },
+  {
+    "name": "Assess Third-Party Integrations",
+    "description": "Examine third-party services and APIs for potential vulnerabilities. Tools like OWASP Dependency-Check are helpful. Vulnerable integrations can serve as a backdoor for attackers."
+  },
+  {
+    "name": "Perform Penetration Testing",
+    "description": "Conduct simulated attacks to identify weaknesses. Tools like Metasploit or Burp Suite provide comprehensive penetration testing capabilities. Lack of regular testing leaves unknown vulnerabilities."
+  },
+  {
+    "name": "Monitor for Outdated Software",
+    "description": "Check for outdated software, libraries, and plugins that may have known vulnerabilities. Tools like Dependency-Track and Snyk are useful. Outdated software is a common attack vector."
+  },
+  {
+    "name": "Validate Network Segmentation",
+    "description": "Ensure that sensitive data is isolated within segmented network areas. Tools like SolarWinds Network Performance Monitor can assess segmentation effectiveness. Poor segmentation exposes sensitive data to unnecessary risk."
+  },
+  {
+    "name": "Check for Vulnerable IoT Devices",
+    "description": "Analyze connected IoT devices for vulnerabilities. Tools like IoT Inspector can help. Unsecured IoT devices can act as entry points for attackers."
+  },
+  {
+    "name": "Network Requests",
+    "description": "Lists the network requests that were made during page load."
+  },
+  {
+    "name": "Network Round Trip Times",
+    "description": "Network round trip times (RTT) have a large impact on performance. If the RTT to an origin is high, it's an indication that servers closer to the user could improve performance."
+  },
+  {
+    "name": "Server Backend Latencies",
+    "description": "Server latencies can impact web performance. If the server latency of an origin is high, it's an indication the server is overloaded or has poor backend performance."
+  },
+  {
+    "name": "Resources Summary",
+    "description": "Aggregates all network requests and groups them by type."
+  },
+  {
+    "name": "DNS Lookup Time",
+    "description": "Measures the time taken to resolve the domain name to an IP address. High DNS lookup times can indicate issues with the DNS provider or configuration."
+  },
+  {
+    "name": "TCP Connection Time",
+    "description": "Measures the time taken to establish a TCP connection with the server. High connection times can indicate network congestion or server load issues."
+  },
+  {
+    "name": "TLS Handshake Time",
+    "description": "Measures the time taken to complete the TLS handshake process. High handshake times can indicate issues with the TLS configuration or server performance."
+  },
+  {
+    "name": "Time to First Byte (TTFB)",
+    "description": "Measures the time from when the request is made until the first byte of the response is received. High TTFB can indicate server-side performance issues."
+  },
+  {
+    "name": "Content Download Time",
+    "description": "Measures the time taken to download the content of the response. High download times can indicate network bandwidth limitations or large response sizes."
+  },
+  {
+    "name": "Redirect Time",
+    "description": "Measures the time taken for HTTP redirects. High redirect times can indicate inefficient redirect chains."
+  },
+  {
+    "name": "Cache Performance",
+    "description": "Evaluates the effectiveness of caching mechanisms by checking cache headers like 'Cache-Control' and 'ETag'. Poor cache performance can lead to unnecessary network requests and increased load times."
+  },
+  {
+    "name": "HTTP/2 Utilization",
+    "description": "Checks if HTTP/2 is being used for network requests. HTTP/2 offers performance improvements over HTTP/1.1 by allowing multiplexed streams and header compression."
+  },
+  {
+    "name": "Cookie Security",
+    "description": "Ensures that cookies are marked with Secure, HttpOnly, and SameSite attributes to enhance security and reduce the risk of attacks."
+  },
+  {
+      "name": "API Response Times",
+      "description": "Measures the response times for API endpoints accessed during page load. High response times can indicate backend performance issues."
+  },
+  {
+    "name": "Network Payload Sizes",
+    "description": "Analyzes the sizes of network payloads. Large payloads can increase load times and affect performance, especially on slower networks."
+  }
+]

@@ -1,0 +1,149 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  annotations:
+    kompose.cmd: kompose convert -f compose.yaml -o k8s/
+    kompose.version: 1.35.0 (9532ceef3)
+  labels:
+    io.kompose.service: planspiegel-postgres
+  name: planspiegel-postgres
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      io.kompose.service: planspiegel-postgres
+  strategy:
+    type: Recreate
+  template:
+    metadata:
+      annotations:
+        kompose.cmd: kompose convert -f compose.yaml -o k8s/
+        kompose.version: 1.35.0 (9532ceef3)
+      labels:
+        io.kompose.service: planspiegel-postgres
+    spec:
+      containers:
+        - env:
+            - name: FRONTEND_URL
+              valueFrom:
+                configMapKeyRef:
+                  key: FRONTEND_URL
+                  name: env-docker
+            - name: GOOGLE_CLIENT_ID
+              valueFrom:
+                configMapKeyRef:
+                  key: GOOGLE_CLIENT_ID
+                  name: env-docker
+            - name: GOOGLE_CLIENT_SECRET
+              valueFrom:
+                configMapKeyRef:
+                  key: GOOGLE_CLIENT_SECRET
+                  name: env-docker
+            - name: MINIO_ACCESS_KEY
+              valueFrom:
+                configMapKeyRef:
+                  key: MINIO_ACCESS_KEY
+                  name: env-docker
+            - name: MINIO_ENDPOINT_URL
+              valueFrom:
+                configMapKeyRef:
+                  key: MINIO_ENDPOINT_URL
+                  name: env-docker
+            - name: MINIO_ROOT_PASSWORD
+              valueFrom:
+                configMapKeyRef:
+                  key: MINIO_ROOT_PASSWORD
+                  name: env-docker
+            - name: MINIO_ROOT_USER
+              valueFrom:
+                configMapKeyRef:
+                  key: MINIO_ROOT_USER
+                  name: env-docker
+            - name: MINIO_SECRET_KEY
+              valueFrom:
+                configMapKeyRef:
+                  key: MINIO_SECRET_KEY
+                  name: env-docker
+            - name: MXTOOLBOX_KEY
+              valueFrom:
+                configMapKeyRef:
+                  key: MXTOOLBOX_KEY
+                  name: env-docker
+            - name: OPENAI_API_KEY
+              valueFrom:
+                configMapKeyRef:
+                  key: OPENAI_API_KEY
+                  name: env-docker
+            - name: POSTGRES_DB
+              valueFrom:
+                configMapKeyRef:
+                  key: POSTGRES_DB
+                  name: env-docker
+            - name: POSTGRES_HOST
+              valueFrom:
+                configMapKeyRef:
+                  key: POSTGRES_HOST
+                  name: env-docker
+            - name: POSTGRES_PASSWORD
+              valueFrom:
+                configMapKeyRef:
+                  key: POSTGRES_PASSWORD
+                  name: env-docker
+            - name: POSTGRES_PORT
+              valueFrom:
+                configMapKeyRef:
+                  key: POSTGRES_PORT
+                  name: env-docker
+            - name: POSTGRES_USER
+              valueFrom:
+                configMapKeyRef:
+                  key: POSTGRES_USER
+                  name: env-docker
+            - name: REDIS_PASSWORD
+              valueFrom:
+                configMapKeyRef:
+                  key: REDIS_PASSWORD
+                  name: env-docker
+            - name: REDIS_URL
+              valueFrom:
+                configMapKeyRef:
+                  key: REDIS_URL
+                  name: env-docker
+            - name: SESSION_SECRET_KEY
+              valueFrom:
+                configMapKeyRef:
+                  key: SESSION_SECRET_KEY
+                  name: env-docker
+          image: postgres:15
+          livenessProbe:
+            exec:
+              command:
+                - "/usr/bin/pg_isready"
+                - "-U"
+                - "user"
+                - "-d"
+                - "db"
+            failureThreshold: 5
+            periodSeconds: 10
+            timeoutSeconds: 5
+          name: planspiegel-postgres
+          ports:
+            - containerPort: 5432
+              protocol: TCP
+          volumeMounts:
+            - mountPath: /var/lib/postgresql/data
+              name: planspiegel-postgres-data
+            - mountPath: /docker-entrypoint-initdb.d/init.sql
+              name: planspiegel-postgres-cm1
+              subPath: init.sql
+      restartPolicy: Always
+      volumes:
+        - name: planspiegel-postgres-data
+          persistentVolumeClaim:
+            claimName: planspiegel-postgres-data
+        - configMap:
+            items:
+              - key: init.sql
+                path: init.sql
+            name: planspiegel-postgres-cm1
+          name: planspiegel-postgres-cm1

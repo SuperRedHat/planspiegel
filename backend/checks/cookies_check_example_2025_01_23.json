@@ -1,0 +1,83 @@
+{
+  "gdpr_compliant": true,
+  "images": [
+    "/scanstorage/0e04d567277df40ce9120dd522539d62/screenshot_https___www_tu_chemnitz_de_tu_struktur_php_en.png"
+  ],
+  "status": "done",
+  "identifier": "0e04d567277df40ce9120dd522539d62",
+  "target": "https://www.tu-chemnitz.de/tu/struktur.php.en",
+  "webpageUpdateMessage": "",
+  "scannedSites": 1,
+  "provider": [],
+  "categories": [
+    {
+      "identifier": "advertising",
+      "title": "Advertising",
+      "title_de": "Werbung",
+      "description": "Cookies used for displaying targeted advertisements to users.",
+      "description_de": "Cookies, die zur Anzeige von gezielten Werbungen an Benutzer verwendet werden.",
+      "is_required": 0
+    },
+    {
+      "identifier": "analytics",
+      "title": "Analytics",
+      "title_de": "Analytik",
+      "description": "Cookies used for collecting data on website usage and performance.",
+      "description_de": "Cookies, die zur Sammlung von Daten zur Nutzung und Leistung der Website verwendet werden.",
+      "is_required": 0
+    },
+    {
+      "identifier": "externalmedia",
+      "title": "External Media",
+      "title_de": "Externe Medien",
+      "description": "Cookies used for embedding external media, such as videos or images.",
+      "description_de": "Cookies, die zum Einbetten von externen Medien wie Videos oder Bildern verwendet werden.",
+      "is_required": 0
+    },
+    {
+      "identifier": "performance",
+      "title": "Performance",
+      "title_de": "Leistung",
+      "description": "Cookies used for improving website performance and user experience.",
+      "description_de": "Cookies, die zur Verbesserung der Leistung und der Benutzererfahrung auf der Website verwendet werden.",
+      "is_required": 0
+    },
+    {
+      "identifier": "required",
+      "title": "Required Cookies",
+      "title_de": "Erforderliche Cookies",
+      "description": "Cookies that are necessary for the website to function properly.",
+      "description_de": "Cookies, die für die ordnungsgemäße Funktion der Website erforderlich sind.",
+      "is_required": 1
+    },
+    {
+      "identifier": "security",
+      "title": "Security",
+      "title_de": "Sicherheit",
+      "description": "Cookies used for ensuring website security and protecting user information.",
+      "description_de": "Cookies, die zur Sicherstellung der Sicherheit der Website und zum Schutz von Benutzerinformationen verwendet werden.",
+      "is_required": 0
+    },
+    {
+      "identifier": "socialmedia",
+      "title": "Social Media",
+      "title_de": "Soziale Medien",
+      "description": "Cookies used for integrating social media features on the website.",
+      "description_de": "Cookies, die zur Integration von Funktionen sozialer Medien auf der Website verwendet werden.",
+      "is_required": 0
+    }
+  ],
+  "requests": [],
+  "additional_info": {
+    "ip": "134.109.226.8",
+    "hostname": "www.tu-chemnitz.de",
+    "city": "Chemnitz",
+    "region": "Saxony",
+    "country": "DE",
+    "loc": "50.8357,12.9292",
+    "org": "AS680 Verein zur Foerderung eines Deutschen Forschungsnetzes e.V.",
+    "postal": "09111",
+    "timezone": "Europe/Berlin",
+    "serverSoftware": "Apache"
+  }
+}

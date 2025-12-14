@@ -1,0 +1,20 @@
+apiVersion: v1
+data:
+  init.sql: |
+    DO
+    $$
+    BEGIN
+       IF NOT EXISTS (
+          SELECT FROM pg_database WHERE datname = 'db'
+       ) THEN
+          CREATE DATABASE db;
+       END IF;
+    END
+    $$;
+kind: ConfigMap
+metadata:
+  annotations:
+    use-subpath: "true"
+  labels:
+    io.kompose.service: planspiegel-postgres
+  name: planspiegel-postgres-cm1

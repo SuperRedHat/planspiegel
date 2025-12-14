@@ -1,0 +1,733 @@
+{
+  "gdpr_compliant": false,
+  "images": [
+    "https://cookieapi.coding-freaks.com/scanstorage/97040893c2532416bcb92ec74a41e238/screenshot_https___www_defense_gov_.png",
+    "https://cookieapi.coding-freaks.com/scanstorage/97040893c2532416bcb92ec74a41e238/screenshot_https___www_defense_gov_News_.png",
+    "https://cookieapi.coding-freaks.com/scanstorage/97040893c2532416bcb92ec74a41e238/screenshot_https___www_defense_gov_News_Advisories_.png",
+    "https://cookieapi.coding-freaks.com/scanstorage/97040893c2532416bcb92ec74a41e238/screenshot_https___www_defense_gov_News_Live_Events_.png",
+    "https://cookieapi.coding-freaks.com/scanstorage/97040893c2532416bcb92ec74a41e238/screenshot_https___www_defense_gov_News_Press_Products_.png",
+    "https://cookieapi.coding-freaks.com/scanstorage/97040893c2532416bcb92ec74a41e238/screenshot_https___www_defense_gov_News_Publications_.png",
+    "https://cookieapi.coding-freaks.com/scanstorage/97040893c2532416bcb92ec74a41e238/screenshot_https___www_defense_gov_News_Releases_.png",
+    "https://cookieapi.coding-freaks.com/scanstorage/97040893c2532416bcb92ec74a41e238/screenshot_https___www_defense_gov_News_Speeches_.png",
+    "https://cookieapi.coding-freaks.com/scanstorage/97040893c2532416bcb92ec74a41e238/screenshot_https___www_defense_gov_News_Today_in_DOD_.png",
+    "https://cookieapi.coding-freaks.com/scanstorage/97040893c2532416bcb92ec74a41e238/screenshot_https___www_defense_gov_News_Transcripts_.png"
+  ],
+  "status": "done",
+  "identifier": "97040893c2532416bcb92ec74a41e238",
+  "target": "https://www.defense.gov/",
+  "webpageUpdateMessage": "",
+  "scannedSites": 10,
+  "provider": {
+    "unknown": {
+      "urls": [
+        {
+          "category_suggestion": "unknown",
+          "url": "https://media.defense.gov/2025/Jan/21/2003630698/1280/1280/0/250120-D-AI758-2271M.JPG",
+          "resourceType": "image"
+        },
+        {
+          "category_suggestion": "unknown",
+          "url": "https://fonts.googleapis.com/css?family=Crimson+Text:400,400i,600,700|Lato:300,400,400i,700,900|Oswald:300,400",
+          "resourceType": "stylesheet"
+        },
+        {
+          "category_suggestion": "unknown",
+          "url": "https://media.defense.gov/2025/Jan/22/2003631280/1200/675/0/250117-Z-NC780-1002E.JPG",
+          "resourceType": "image"
+        },
+        {
+          "category_suggestion": "unknown",
+          "url": "https://media.defense.gov/2024/May/09/2003461166/1280/1280/0/230304-A-BA489-110.JPG",
+          "resourceType": "image"
+        },
+        {
+          "category_suggestion": "unknown",
+          "url": "https://media.defense.gov/2019/Nov/05/2002206497/1280/1280/0/190228-D-DB155-011A.JPG",
+          "resourceType": "image"
+        },
+        {
+          "category_suggestion": "unknown",
+          "url": "https://media.defense.gov/2023/Aug/07/2003276367/1280/1280/0/230802-G-G0200-1005P.JPG",
+          "resourceType": "image"
+        },
+        {
+          "category_suggestion": "unknown",
+          "url": "https://media.defense.gov/2024/Dec/12/2003611056/1280/1280/0/241212-D-D0439-100E.JPG",
+          "resourceType": "image"
+        },
+        {
+          "category_suggestion": "unknown",
+          "url": "https://dap.digitalgov.gov/web-vitals/dist/web-vitals.attribution.iife.js",
+          "resourceType": "script"
+        },
+        {
+          "category_suggestion": "unknown",
+          "url": "https://api.dvidshub.net/live/list?include_snippets=0&max_results=50&api_key=key-67819102787f0&hashtag=dgovlive&sortdir=asc",
+          "resourceType": "fetch"
+        },
+        {
+          "category_suggestion": "unknown",
+          "url": "https://media.defense.gov/2025/Jan/22/2003631436/1280/1280/0/240829-X-IN642-1155.JPG",
+          "resourceType": "image"
+        },
+        {
+          "category_suggestion": "unknown",
+          "url": "https://media.defense.gov/2025/Jan/21/2003630851/1280/1280/0/250121-D-D0439-1234.JPG",
+          "resourceType": "image"
+        },
+        {
+          "category_suggestion": "unknown",
+          "url": "https://media.defense.gov/2025/Jan/20/2003630278/1280/1280/0/250120-O-D0439-002A.JPG",
+          "resourceType": "image"
+        },
+        {
+          "category_suggestion": "unknown",
+          "url": "https://media.defense.gov/2020/Nov/04/2002529792/1280/1280/0/171101-F-TM170-0281R.JPG",
+          "resourceType": "image"
+        },
+        {
+          "category_suggestion": "unknown",
+          "url": "https://media.defense.gov/2023/Jan/19/2003146763/825/780/0/230119-N-VN064-001.JPG",
+          "resourceType": "image"
+        },
+        {
+          "category_suggestion": "unknown",
+          "url": "https://media.defense.gov/2025/Jan/15/2003628550/825/780/0/250109-F-LV958-1030M.JPG",
+          "resourceType": "image"
+        },
+        {
+          "category_suggestion": "unknown",
+          "url": "https://media.defense.gov/2025/Jan/17/2003629941/825/780/0/250116-A-WU705-4864.JPG",
+          "resourceType": "image"
+        },
+        {
+          "category_suggestion": "unknown",
+          "url": "https://media.defense.gov/2025/Jan/21/2003630875/1280/1280/0/250116-A-A4433-1004K.JPG",
+          "resourceType": "image"
+        },
+        {
+          "category_suggestion": "unknown",
+          "url": "https://media.defense.gov/2025/Jan/21/2003630709/1280/1280/0/240207-M-VM946-1230K.JPG",
+          "resourceType": "image"
+        },
+        {
+          "category_suggestion": "unknown",
+          "url": "https://media.defense.gov/2025/Jan/21/2003630711/1280/1280/0/250117-N-FS097-1639K.JPG",
+          "resourceType": "image"
+        },
+        {
+          "category_suggestion": "unknown",
+          "url": "https://media.defense.gov/2025/Jan/21/2003630713/1280/1280/0/250115-F-F3456-1001K.JPG",
+          "resourceType": "image"
+        },
+        {
+          "category_suggestion": "unknown",
+          "url": "https://media.defense.gov/2024/Jun/04/2003478157/1280/1280/0/240604-X-BS524-1020M.JPG",
+          "resourceType": "image"
+        },
+        {
+          "category_suggestion": "unknown",
+          "url": "https://media.defense.gov/2025/Jan/21/2003630707/1280/1280/0/250118-A-WU705-2012K.JPG",
+          "resourceType": "image"
+        },
+        {
+          "category_suggestion": "unknown",
+          "url": "https://search.usa.gov/javascripts/remote.loader.js",
+          "resourceType": "script"
+        },
+        {
+          "category_suggestion": "unknown",
+          "url": "https://media.defense.gov/2024/Jun/18/2003488084/800/800/0/240612-F-NU502-2085M.JPG",
+          "resourceType": "image"
+        },
+        {
+          "category_suggestion": "unknown",
+          "url": "https://media.defense.gov/2024/Jul/23/2003508575/800/800/0/240715-N-BJ295-1270Y.JPG",
+          "resourceType": "image"
+        },
+        {
+          "category_suggestion": "unknown",
+          "url": "https://media.defense.gov/2024/May/14/2003463664/800/800/0/240513-A-ID763-4148Y.JPG",
+          "resourceType": "image"
+        },
+        {
+          "category_suggestion": "unknown",
+          "url": "https://search.usa.gov/assets/sayt_loader.js",
+          "resourceType": "script"
+        },
+        {
+          "category_suggestion": "unknown",
+          "url": "https://stats.g.doubleclick.net/g/collect?v=2&tid=G-SB6KFHKWNW&cid=70034041.1737589006&gtm=45je51l0h1v9185119203za200zb9131934939&aip=1&dma=1&dma_cps=syphamo&gcd=13l3l3l2l1l1&npa=1&frm=0&tag_exp=102067555~102067808~102081485~102123608",
+          "resourceType": "ping"
+        },
+        {
+          "category_suggestion": "unknown",
+          "url": "https://www.google.de/ads/ga-audiences?v=1&t=sr&slf_rd=1&_r=4&tid=G-SB6KFHKWNW&cid=70034041.1737589006&gtm=45je51l0h1v9185119203za200zb9131934939&aip=1&dma=1&dma_cps=syphamo&gcd=13l3l3l2l1l1&npa=1&frm=0&tag_exp=102067555~102067808~102081485~102123608&tag_exp=102067555~102067808~102081485~102123608&z=1888201852",
+          "resourceType": "image"
+        },
+        {
+          "category_suggestion": "unknown",
+          "url": "https://media.defense.gov/2024/Jun/24/2003490848/-1/-1/0/240622-N-RD613-1113M.JPG",
+          "resourceType": "image"
+        },
+        {
+          "category_suggestion": "unknown",
+          "url": "https://media.defense.gov/2021/Sep/30/2002865254/825/780/0/210930-D-EX074-055.JPG",
+          "resourceType": "image"
+        },
+        {
+          "category_suggestion": "unknown",
+          "url": "https://media.defense.gov/2021/Sep/30/2002865211/825/780/0/210930-D-EX074-013.JPG",
+          "resourceType": "image"
+        },
+        {
+          "category_suggestion": "unknown",
+          "url": "https://media.defense.gov/2025/Jan/22/2003631436/825/780/0/240829-X-IN642-1155.JPG",
+          "resourceType": "image"
+        },
+        {
+          "category_suggestion": "unknown",
+          "url": "https://media.defense.gov/2025/Jan/21/2003630698/825/780/0/250120-D-AI758-2271M.JPG",
+          "resourceType": "image"
+        },
+        {
+          "category_suggestion": "unknown",
+          "url": "https://media.defense.gov/2025/Jan/21/2003630851/825/780/0/250121-D-D0439-1234.JPG",
+          "resourceType": "image"
+        },
+        {
+          "category_suggestion": "unknown",
+          "url": "https://api.dvidshub.net//live/list?include_snippets=0&api_key=key-67819102787f0&hashtag=dgovlive&sortdir=asc&max_results=50",
+          "resourceType": "xhr"
+        },
+        {
+          "category_suggestion": "unknown",
+          "url": "https://media.defense.gov/2024/Dec/11/2003610005/-1/-1/0/241004-O-OF297-4131.JPG",
+          "resourceType": "image"
+        },
+        {
+          "category_suggestion": "unknown",
+          "url": "https://media.defense.gov/2021/Sep/30/2002865251/825/780/0/210930-D-EX074-052.JPG",
+          "resourceType": "image"
+        },
+        {
+          "category_suggestion": "unknown",
+          "url": "https://media.defense.gov/2021/Sep/30/2002865259/825/780/0/210930-D-EX074-059.JPG",
+          "resourceType": "image"
+        },
+        {
+          "category_suggestion": "unknown",
+          "url": "https://media.defense.gov/2024/Dec/16/2003614120/1280/1280/0/241017-F-YD772-1692Z.JPG",
+          "resourceType": "image"
+        },
+        {
+          "category_suggestion": "unknown",
+          "url": "https://media.defense.gov/2025/Jan/21/2003630350/825/780/0/250121-D-D0439-101A.JPG",
+          "resourceType": "image"
+        },
+        {
+          "category_suggestion": "unknown",
+          "url": "https://media.defense.gov/2023/Sep/25/2003308028/825/780/0/230413-F-LE393-0010S.JPG",
+          "resourceType": "image"
+        },
+        {
+          "category_suggestion": "unknown",
+          "url": "https://media.defense.gov/2021/Dec/20/2002912707/825/780/0/211105-N-AC802-0022R.JPG",
+          "resourceType": "image"
+        },
+        {
+          "category_suggestion": "unknown",
+          "url": "https://media.defense.gov/2018/Sep/24/2002044403/900/900/0/180419-D-IO684-300K.JPG",
+          "resourceType": "image"
+        },
+        {
+          "category_suggestion": "unknown",
+          "url": "https://media.defense.gov/2019/Sep/30/2002188189/900/900/0/190903-Z-BQ359-1003Y.JPG",
+          "resourceType": "image"
+        },
+        {
+          "category_suggestion": "unknown",
+          "url": "https://media.defense.gov/2018/May/22/2001920730/-1/-1/0/180514-F-KQ373-1021C.JPG",
+          "resourceType": "image"
+        },
+        {
+          "category_suggestion": "unknown",
+          "url": "https://media.defense.gov/2019/May/15/2002131933/900/900/0/190510-F-NG306-0024C.JPG",
+          "resourceType": "image"
+        },
+        {
+          "category_suggestion": "unknown",
+          "url": "https://media.defense.gov/2024/Dec/11/2003607812/-1/-1/0/241121-N-LN782-1234M.JPG",
+          "resourceType": "image"
+        },
+        {
+          "category_suggestion": "unknown",
+          "url": "https://media.defense.gov/2021/Sep/21/2002859035/400/400/0/210921-D-D0439-103.PNG",
+          "resourceType": "image"
+        },
+        {
+          "category_suggestion": "unknown",
+          "url": "https://media.defense.gov/2018/Sep/18/2002041905/800/450/0/180918-D-MA852-004.JPG",
+          "resourceType": "image"
+        }
+      ],
+      "information": {
+        "name": "unknown",
+        "category_suggestion": "unknown",
+        "identifier": "unknown",
+        "provider": "unknown",
+        "loadend_compliant": false
+      }
+    }
+  },
+  "categories": [
+    {
+      "identifier": "advertising",
+      "title": "Advertising",
+      "title_de": "Werbung",
+      "description": "Cookies used for displaying targeted advertisements to users.",
+      "description_de": "Cookies, die zur Anzeige von gezielten Werbungen an Benutzer verwendet werden.",
+      "is_required": 0
+    },
+    {
+      "identifier": "analytics",
+      "title": "Analytics",
+      "title_de": "Analytik",
+      "description": "Cookies used for collecting data on website usage and performance.",
+      "description_de": "Cookies, die zur Sammlung von Daten zur Nutzung und Leistung der Website verwendet werden.",
+      "is_required": 0
+    },
+    {
+      "identifier": "externalmedia",
+      "title": "External Media",
+      "title_de": "Externe Medien",
+      "description": "Cookies used for embedding external media, such as videos or images.",
+      "description_de": "Cookies, die zum Einbetten von externen Medien wie Videos oder Bildern verwendet werden.",
+      "is_required": 0
+    },
+    {
+      "identifier": "performance",
+      "title": "Performance",
+      "title_de": "Leistung",
+      "description": "Cookies used for improving website performance and user experience.",
+      "description_de": "Cookies, die zur Verbesserung der Leistung und der Benutzererfahrung auf der Website verwendet werden.",
+      "is_required": 0
+    },
+    {
+      "identifier": "required",
+      "title": "Required Cookies",
+      "title_de": "Erforderliche Cookies",
+      "description": "Cookies that are necessary for the website to function properly.",
+      "description_de": "Cookies, die für die ordnungsgemäße Funktion der Website erforderlich sind.",
+      "is_required": 1
+    },
+    {
+      "identifier": "security",
+      "title": "Security",
+      "title_de": "Sicherheit",
+      "description": "Cookies used for ensuring website security and protecting user information.",
+      "description_de": "Cookies, die zur Sicherstellung der Sicherheit der Website und zum Schutz von Benutzerinformationen verwendet werden.",
+      "is_required": 0
+    },
+    {
+      "identifier": "socialmedia",
+      "title": "Social Media",
+      "title_de": "Soziale Medien",
+      "description": "Cookies used for integrating social media features on the website.",
+      "description_de": "Cookies, die zur Integration von Funktionen sozialer Medien auf der Website verwendet werden.",
+      "is_required": 0
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://fonts.gstatic.com/s/lato/v24/S6u9w4BMUTPHh50XSwiPGQ.woff2",
+      "foundURL": "https://www.defense.gov/",
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua": "\"Chromium\";v=\"127\", \"Not)A;Brand\";v=\"99\"",
+        "ngrok-skip-browser-warning": "true",
+        "origin": "https://www.defense.gov",
+        "accept-encoding": "gzip, deflate, br",
+        "accept-language": "en-US,en;q=0.9,en;q=0.8",
+        "sec-ch-ua-mobile": "?0",
+        "upgrade-insecure-requests": "1",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.4147.56 Safari/537.36/CF-CookieScanner",
+        "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3",
+        "referer": "https://fonts.googleapis.com/",
+        "sec-ch-ua-platform": "\"Linux\""
+      },
+      "resourceType": "font"
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/lato/v24/S6u9w4BMUTPHh50XSwiPGQ.woff2",
+      "foundURL": "https://www.defense.gov/",
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua": "\"Chromium\";v=\"127\", \"Not)A;Brand\";v=\"99\"",
+        "ngrok-skip-browser-warning": "true",
+        "origin": "https://www.defense.gov",
+        "accept-encoding": "gzip, deflate, br",
+        "accept-language": "en-US,en;q=0.9,en;q=0.8",
+        "sec-ch-ua-mobile": "?0",
+        "upgrade-insecure-requests": "1",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.4147.56 Safari/537.36/CF-CookieScanner",
+        "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3",
+        "referer": "https://fonts.googleapis.com/",
+        "sec-ch-ua-platform": "\"Linux\""
+      },
+      "resourceType": "font"
+    },
+    {
+      "url": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+      "foundURL": "https://www.defense.gov/",
+      "method": "GET",
+      "headers": {
+        "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3",
+        "ngrok-skip-browser-warning": "true",
+        "referer": "",
+        "accept-encoding": "gzip, deflate, br",
+        "accept-language": "en-US,en;q=0.9,en;q=0.8",
+        "upgrade-insecure-requests": "1",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.4147.56 Safari/537.36/CF-CookieScanner"
+      },
+      "resourceType": "image"
+    },
+    {
+      "url": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==",
+      "foundURL": "https://www.defense.gov/",
+      "method": "GET",
+      "headers": {
+        "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3",
+        "ngrok-skip-browser-warning": "true",
+        "referer": "",
+        "accept-encoding": "gzip, deflate, br",
+        "accept-language": "en-US,en;q=0.9,en;q=0.8",
+        "upgrade-insecure-requests": "1",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.4147.56 Safari/537.36/CF-CookieScanner"
+      },
+      "resourceType": "image"
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/oswald/v53/TK3IWkUHHAIjg75cFRf3bXL8LICs13Fv40pKlN4NNSeSASwcEWlWHYg.woff2",
+      "foundURL": "https://www.defense.gov/News/",
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua": "\"Chromium\";v=\"127\", \"Not)A;Brand\";v=\"99\"",
+        "ngrok-skip-browser-warning": "true",
+        "origin": "https://www.defense.gov",
+        "accept-encoding": "gzip, deflate, br",
+        "accept-language": "en-US,en;q=0.9,en;q=0.8",
+        "sec-ch-ua-mobile": "?0",
+        "upgrade-insecure-requests": "1",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.4147.56 Safari/537.36/CF-CookieScanner",
+        "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3",
+        "referer": "https://fonts.googleapis.com/",
+        "sec-ch-ua-platform": "\"Linux\""
+      },
+      "resourceType": "font"
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/lato/v24/S6u9w4BMUTPHh6UVSwiPGQ.woff2",
+      "foundURL": "https://www.defense.gov/News/",
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua": "\"Chromium\";v=\"127\", \"Not)A;Brand\";v=\"99\"",
+        "ngrok-skip-browser-warning": "true",
+        "origin": "https://www.defense.gov",
+        "accept-encoding": "gzip, deflate, br",
+        "accept-language": "en-US,en;q=0.9,en;q=0.8",
+        "sec-ch-ua-mobile": "?0",
+        "upgrade-insecure-requests": "1",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.4147.56 Safari/537.36/CF-CookieScanner",
+        "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3",
+        "referer": "https://fonts.googleapis.com/",
+        "sec-ch-ua-platform": "\"Linux\""
+      },
+      "resourceType": "font"
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/lato/v24/S6uyw4BMUTPHjx4wXg.woff2",
+      "foundURL": "https://www.defense.gov/News/",
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua": "\"Chromium\";v=\"127\", \"Not)A;Brand\";v=\"99\"",
+        "ngrok-skip-browser-warning": "true",
+        "origin": "https://www.defense.gov",
+        "accept-encoding": "gzip, deflate, br",
+        "accept-language": "en-US,en;q=0.9,en;q=0.8",
+        "sec-ch-ua-mobile": "?0",
+        "upgrade-insecure-requests": "1",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.4147.56 Safari/537.36/CF-CookieScanner",
+        "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3",
+        "referer": "https://fonts.googleapis.com/",
+        "sec-ch-ua-platform": "\"Linux\""
+      },
+      "resourceType": "font"
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/crimsontext/v19/wlp2gwHKFkZgtmSR3NB0oRJfbwhT.woff2",
+      "foundURL": "https://www.defense.gov/News/",
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua": "\"Chromium\";v=\"127\", \"Not)A;Brand\";v=\"99\"",
+        "ngrok-skip-browser-warning": "true",
+        "origin": "https://www.defense.gov",
+        "accept-encoding": "gzip, deflate, br",
+        "accept-language": "en-US,en;q=0.9,en;q=0.8",
+        "sec-ch-ua-mobile": "?0",
+        "upgrade-insecure-requests": "1",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.4147.56 Safari/537.36/CF-CookieScanner",
+        "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3",
+        "referer": "https://fonts.googleapis.com/",
+        "sec-ch-ua-platform": "\"Linux\""
+      },
+      "resourceType": "font"
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/crimsontext/v19/wlpogwHKFkZgtmSR3NB0oRJfajhRK_Y.woff2",
+      "foundURL": "https://www.defense.gov/News/",
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua": "\"Chromium\";v=\"127\", \"Not)A;Brand\";v=\"99\"",
+        "ngrok-skip-browser-warning": "true",
+        "origin": "https://www.defense.gov",
+        "accept-encoding": "gzip, deflate, br",
+        "accept-language": "en-US,en;q=0.9,en;q=0.8",
+        "sec-ch-ua-mobile": "?0",
+        "upgrade-insecure-requests": "1",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.4147.56 Safari/537.36/CF-CookieScanner",
+        "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3",
+        "referer": "https://fonts.googleapis.com/",
+        "sec-ch-ua-platform": "\"Linux\""
+      },
+      "resourceType": "font"
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/oswald/v53/TK3IWkUHHAIjg75cFRf3bXL8LICs13Fv40pKlN4NNSeSASwcEWlWHYg.woff2",
+      "foundURL": "https://www.defense.gov/News/",
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua": "\"Chromium\";v=\"127\", \"Not)A;Brand\";v=\"99\"",
+        "ngrok-skip-browser-warning": "true",
+        "origin": "https://www.defense.gov",
+        "accept-encoding": "gzip, deflate, br",
+        "accept-language": "en-US,en;q=0.9,en;q=0.8",
+        "sec-ch-ua-mobile": "?0",
+        "upgrade-insecure-requests": "1",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.4147.56 Safari/537.36/CF-CookieScanner",
+        "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3",
+        "referer": "https://fonts.googleapis.com/",
+        "sec-ch-ua-platform": "\"Linux\""
+      },
+      "resourceType": "font"
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/lato/v24/S6u9w4BMUTPHh6UVSwiPGQ.woff2",
+      "foundURL": "https://www.defense.gov/News/",
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua": "\"Chromium\";v=\"127\", \"Not)A;Brand\";v=\"99\"",
+        "ngrok-skip-browser-warning": "true",
+        "origin": "https://www.defense.gov",
+        "accept-encoding": "gzip, deflate, br",
+        "accept-language": "en-US,en;q=0.9,en;q=0.8",
+        "sec-ch-ua-mobile": "?0",
+        "upgrade-insecure-requests": "1",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.4147.56 Safari/537.36/CF-CookieScanner",
+        "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3",
+        "referer": "https://fonts.googleapis.com/",
+        "sec-ch-ua-platform": "\"Linux\""
+      },
+      "resourceType": "font"
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/lato/v24/S6uyw4BMUTPHjx4wXg.woff2",
+      "foundURL": "https://www.defense.gov/News/",
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua": "\"Chromium\";v=\"127\", \"Not)A;Brand\";v=\"99\"",
+        "ngrok-skip-browser-warning": "true",
+        "origin": "https://www.defense.gov",
+        "accept-encoding": "gzip, deflate, br",
+        "accept-language": "en-US,en;q=0.9,en;q=0.8",
+        "sec-ch-ua-mobile": "?0",
+        "upgrade-insecure-requests": "1",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.4147.56 Safari/537.36/CF-CookieScanner",
+        "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3",
+        "referer": "https://fonts.googleapis.com/",
+        "sec-ch-ua-platform": "\"Linux\""
+      },
+      "resourceType": "font"
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/crimsontext/v19/wlp2gwHKFkZgtmSR3NB0oRJfbwhT.woff2",
+      "foundURL": "https://www.defense.gov/News/",
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua": "\"Chromium\";v=\"127\", \"Not)A;Brand\";v=\"99\"",
+        "ngrok-skip-browser-warning": "true",
+        "origin": "https://www.defense.gov",
+        "accept-encoding": "gzip, deflate, br",
+        "accept-language": "en-US,en;q=0.9,en;q=0.8",
+        "sec-ch-ua-mobile": "?0",
+        "upgrade-insecure-requests": "1",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.4147.56 Safari/537.36/CF-CookieScanner",
+        "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3",
+        "referer": "https://fonts.googleapis.com/",
+        "sec-ch-ua-platform": "\"Linux\""
+      },
+      "resourceType": "font"
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/crimsontext/v19/wlpogwHKFkZgtmSR3NB0oRJfajhRK_Y.woff2",
+      "foundURL": "https://www.defense.gov/News/",
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua": "\"Chromium\";v=\"127\", \"Not)A;Brand\";v=\"99\"",
+        "ngrok-skip-browser-warning": "true",
+        "origin": "https://www.defense.gov",
+        "accept-encoding": "gzip, deflate, br",
+        "accept-language": "en-US,en;q=0.9,en;q=0.8",
+        "sec-ch-ua-mobile": "?0",
+        "upgrade-insecure-requests": "1",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.4147.56 Safari/537.36/CF-CookieScanner",
+        "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3",
+        "referer": "https://fonts.googleapis.com/",
+        "sec-ch-ua-platform": "\"Linux\""
+      },
+      "resourceType": "font"
+    },
+    {
+      "url": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==",
+      "foundURL": "https://www.defense.gov/News/",
+      "method": "GET",
+      "headers": {
+        "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3",
+        "ngrok-skip-browser-warning": "true",
+        "referer": "",
+        "accept-encoding": "gzip, deflate, br",
+        "accept-language": "en-US,en;q=0.9,en;q=0.8",
+        "upgrade-insecure-requests": "1",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.4147.56 Safari/537.36/CF-CookieScanner"
+      },
+      "resourceType": "image"
+    },
+    {
+      "url": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==",
+      "foundURL": "https://www.defense.gov/News/Press-Products/",
+      "method": "GET",
+      "headers": {
+        "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3",
+        "ngrok-skip-browser-warning": "true",
+        "referer": "",
+        "accept-encoding": "gzip, deflate, br",
+        "accept-language": "en-US,en;q=0.9,en;q=0.8",
+        "upgrade-insecure-requests": "1",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.4147.56 Safari/537.36/CF-CookieScanner"
+      },
+      "resourceType": "image"
+    },
+    {
+      "url": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==",
+      "foundURL": "https://www.defense.gov/News/Today-in-DOD/",
+      "method": "GET",
+      "headers": {
+        "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3",
+        "ngrok-skip-browser-warning": "true",
+        "referer": "",
+        "accept-encoding": "gzip, deflate, br",
+        "accept-language": "en-US,en;q=0.9,en;q=0.8",
+        "upgrade-insecure-requests": "1",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.4147.56 Safari/537.36/CF-CookieScanner"
+      },
+      "resourceType": "image"
+    },
+    {
+      "url": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==",
+      "foundURL": "https://www.defense.gov/News/Releases/",
+      "method": "GET",
+      "headers": {
+        "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3",
+        "ngrok-skip-browser-warning": "true",
+        "referer": "",
+        "accept-encoding": "gzip, deflate, br",
+        "accept-language": "en-US,en;q=0.9,en;q=0.8",
+        "upgrade-insecure-requests": "1",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.4147.56 Safari/537.36/CF-CookieScanner"
+      },
+      "resourceType": "image"
+    },
+    {
+      "url": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==",
+      "foundURL": "https://www.defense.gov/News/Advisories/",
+      "method": "GET",
+      "headers": {
+        "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3",
+        "ngrok-skip-browser-warning": "true",
+        "referer": "",
+        "accept-encoding": "gzip, deflate, br",
+        "accept-language": "en-US,en;q=0.9,en;q=0.8",
+        "upgrade-insecure-requests": "1",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.4147.56 Safari/537.36/CF-CookieScanner"
+      },
+      "resourceType": "image"
+    },
+    {
+      "url": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==",
+      "foundURL": "https://www.defense.gov/News/Transcripts/",
+      "method": "GET",
+      "headers": {
+        "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3",
+        "ngrok-skip-browser-warning": "true",
+        "referer": "",
+        "accept-encoding": "gzip, deflate, br",
+        "accept-language": "en-US,en;q=0.9,en;q=0.8",
+        "upgrade-insecure-requests": "1",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.4147.56 Safari/537.36/CF-CookieScanner"
+      },
+      "resourceType": "image"
+    },
+    {
+      "url": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==",
+      "foundURL": "https://www.defense.gov/News/Speeches/",
+      "method": "GET",
+      "headers": {
+        "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3",
+        "ngrok-skip-browser-warning": "true",
+        "referer": "",
+        "accept-encoding": "gzip, deflate, br",
+        "accept-language": "en-US,en;q=0.9,en;q=0.8",
+        "upgrade-insecure-requests": "1",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.4147.56 Safari/537.36/CF-CookieScanner"
+      },
+      "resourceType": "image"
+    },
+    {
+      "url": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==",
+      "foundURL": "https://www.defense.gov/News/Publications/",
+      "method": "GET",
+      "headers": {
+        "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3",
+        "ngrok-skip-browser-warning": "true",
+        "referer": "",
+        "accept-encoding": "gzip, deflate, br",
+        "accept-language": "en-US,en;q=0.9,en;q=0.8",
+        "upgrade-insecure-requests": "1",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.4147.56 Safari/537.36/CF-CookieScanner"
+      },
+      "resourceType": "image"
+    }
+  ],
+  "additional_info": {
+    "ip": "23.204.20.150",
+    "hostname": "a23-204-20-150.deploy.static.akamaitechnologies.com",
+    "city": "Secaucus",
+    "region": "New Jersey",
+    "country": "US",
+    "loc": "40.7895,-74.0565",
+    "org": "AS16625 Akamai Technologies, Inc.",
+    "postal": "07094",
+    "timezone": "America/New_York",
+    "serverSoftware": ""
+  }
+}

@@ -1,0 +1,10 @@
+FROM python:3.13-slim
+
+WORKDIR /app
+
+COPY . .
+COPY .env.docker .env
+COPY requirements_for_migrations.txt requirements.txt
+RUN pip install --no-cache-dir -r requirements.txt
+
+CMD ["alembic", "upgrade", "head"]

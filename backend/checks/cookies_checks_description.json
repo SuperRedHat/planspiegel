@@ -1,0 +1,86 @@
+[
+  {
+    "name": "Secure Cookies",
+    "description": "Cookies marked with the 'Secure' attribute are best for websites because they ensure that cookies are only transmitted over HTTPS, preventing interception by attackers. Always enforce the 'Secure' flag for cookies, especially for sensitive sessions or authentication."
+  },
+  {
+    "name": "HTTPOnly Cookies",
+    "description": "HTTPOnly cookies are highly useful as they prevent client-side scripts from accessing sensitive cookie data. This reduces the risk of cross-site scripting (XSS) attacks. Always set the HTTPOnly attribute for cookies that store sensitive information like session tokens."
+  },
+  {
+    "name": "SameSite Cookies",
+    "description": "The 'SameSite' attribute is crucial for preventing cross-site request forgery (CSRF) attacks. Setting this attribute to 'Strict' or 'Lax' ensures that cookies are only sent in requests originating from the same site. This is best for websites handling user authentication."
+  },
+  {
+    "name": "Persistent Cookies",
+    "description": "Persistent cookies are both good and bad depending on usage. They are useful for storing user preferences or login states but can be misused to track users indefinitely. Ensure persistent cookies have a defined expiration and avoid using them for sensitive information."
+  },
+  {
+    "name": "Third-Party Cookies",
+    "description": "Third-party cookies are generally not useful for websites unless necessary for specific features like third-party analytics or advertising. They can negatively impact user privacy and may violate data protection regulations like GDPR. Limit or eliminate the use of third-party cookies where possible."
+  },
+  {
+    "name": "Unencrypted Cookies",
+    "description": "Unencrypted cookies are bad as they can be intercepted and exploited by attackers. Always use cookies over HTTPS connections and avoid storing sensitive information like passwords in cookies."
+  },
+  {
+    "name": "Large Cookies",
+    "description": "Large cookies are bad for website performance, as they increase request and response payloads. Keep cookie sizes minimal by storing only essential data. Avoid storing complex or large datasets in cookies."
+  },
+  {
+    "name": "Cookie Expiration",
+    "description": "Properly setting cookie expiration is best for security. Session cookies should expire when the user closes their browser, while persistent cookies should have a well-defined and reasonable expiration time to reduce security risks."
+  },
+  {
+    "name": "Cookie Policy Compliance",
+    "description": "Compliance with privacy regulations like GDPR and CCPA is best for user trust. Implement a clear cookie policy, allow users to manage their preferences, and ensure cookies are only set after user consent."
+  },
+  {
+    "name": "Encrypted Cookie Values",
+    "description": "Encrypting cookie values is best for protecting sensitive data. Use robust encryption algorithms to secure cookie contents, especially for authentication tokens or personal information."
+  },
+  {
+    "name": "Minimal Cookie Data",
+    "description": "Verify that cookies store minimal and non-sensitive data. Avoid storing sensitive information such as passwords or PII in cookies."
+  },
+  {
+    "name": "Domain and Path Restrictions",
+    "description": "Assess the Domain and Path attributes to ensure cookies are scoped to the smallest necessary subset of the website to reduce unnecessary exposure."
+  },
+  {
+    "name": "Regular Audits",
+    "description": "Implement regular audits of cookie usage to ensure compliance with security best practices and adapt to evolving security requirements."
+  },
+  {
+    "name": "Compliance with Privacy Laws",
+    "description": "Ensure cookie usage complies with privacy regulations such as GDPR, CCPA, and others by seeking user consent and providing transparency."
+  },
+  {
+    "name": "Advertising",
+    "description": "Cookies used for displaying targeted advertisements to users."
+  },
+  {
+    "name": "Analytics",
+    "description": "Cookies used for collecting data on website usage and performance."
+  },
+  {
+    "name": "External Media",
+    "description": "Cookies used for embedding external media, such as videos or images."
+  },
+  {
+    "name": "Performance",
+    "description": "Cookies used for improving website performance and user experience."
+  },
+  {
+    "name": "Required Cookies",
+    "description": "Cookies that are necessary for the website to function properly."
+  },
+  {
+    "name": "Security",
+    "description": "Cookies used for ensuring website security and protecting user information."
+  },
+  {
+    "name": "Social Media",
+    "description": "Cookies used for integrating social media features on the website."
+  }
+]

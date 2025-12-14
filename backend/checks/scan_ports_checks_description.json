@@ -1,0 +1,58 @@
+[
+  {
+    "name": "Detected Open Ports",
+    "description": "We are scanning open ports of the server. 443 is good, as it ensures secure HTTPS traffic. 80 is acceptable but should redirect to 443 for encryption. 22 is bad if left publicly accessible, as it exposes SSH to unauthorized access."
+  },
+  {
+    "name": "Unnecessary Ports",
+    "description": "Any port not required for website functionality is considered unnecessary. Examples include 23 (Telnet) and 3389 (RDP). These ports should be closed to reduce the attack surface."
+  },
+  {
+    "name": "Secure Protocols",
+    "description": "Ports using secure protocols like HTTPS (443) and SSH (22) are good if configured properly. Ensure SSH access is restricted to specific IPs, and HTTPS uses a valid SSL/TLS certificate."
+  },
+  {
+    "name": "Outdated Software",
+    "description": "Ports running outdated services (e.g., old versions of Apache or MySQL) are bad. Update software regularly to prevent exploitation of known vulnerabilities."
+  },
+  {
+    "name": "Exposed Admin Panels",
+    "description": "Admin panels accessible through open ports are bad. For example, phpMyAdmin on port 3306 should be restricted to internal use or specific IPs to prevent unauthorized access."
+  },
+  {
+    "name": "Monitoring and Alerts",
+    "description": "It is good practice to monitor activity on open ports in real time and set up alerts for unauthorized access or changes in port configurations."
+  },
+  {
+    "name": "Firewall Configuration",
+    "description": "A properly configured firewall is good. Close all unused ports and allow access only to essential ones (e.g., 443, 80)."
+  },
+  {
+    "name": "Intrusion Detection",
+    "description": "Using intrusion detection systems (IDS) like Snort is good. They monitor open ports for suspicious activity and help prevent potential breaches."
+  },
+  {
+    "name": "Regular Scans",
+    "description": "Performing regular port scans is good to identify changes in port configurations or new vulnerabilities promptly."
+  },
+  {
+    "name": "Custom Port Scans",
+    "description": "Allowing targeted scans for specific ports (e.g., scanning only ports 22, 80, and 443) is good. This helps users focus on critical services."
+  },
+  {
+    "name": "Authentication and Access Control",
+    "description": "Review exposed services for authentication mechanisms. Implement strong access controls, multi-factor authentication (MFA), and least-privilege access models to secure services."
+  },
+  {
+    "name": "SSL Certificate Check",
+    "description": "Verify SSL/TLS certificates on HTTPS (443). Useful certificates are those from trusted certificate authorities (CAs) with no expired or self-signed issues. Implement HTTPS everywhere using HSTS to enforce secure communication."
+  },
+  {
+    "name": "Open Ports Analysis",
+    "description": "Identify open ports from the API response. Useful ports include HTTP (80), HTTPS (443), and SSH (22) if required. Ports like Telnet (23), FTP (21), and RDP (3389) are often considered bad or insecure due to vulnerabilities. Ensure only necessary ports are exposed and secure protocols are used."
+  },
+  {
+    "name": "Service and Version Detection",
+    "description": "Analyze the services running on detected ports and their versions. Outdated or vulnerable software can pose a threat. Ensure all services are updated and unnecessary services are disabled."
+  }
+]
