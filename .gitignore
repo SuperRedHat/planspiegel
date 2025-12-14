@@ -1,0 +1,9 @@
+# Kubernetes secrets / configmaps
+backend/k8s/*configmap*.yaml
+backend/k8s/env-*.yaml
+
+# Credentials
+*.key
+*.json
+*secret*
+*credential*
